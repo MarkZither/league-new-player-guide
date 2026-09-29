@@ -39,7 +39,7 @@
       "title": null,
       "difficulty": "Easy",
       "description": "Her main job is healing allies and she has simple abilities",
-      "imageFileName": null,
+      "imageFileName": "soraka.png",
       "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/15.18.1/img/Soraka.png",
       "researchNotes": null,
       "lastReviewed": null
@@ -50,7 +50,7 @@
       "title": null,
       "difficulty": "Easy",
       "description": "She is a tank support with strong crowd control and straightforward abilities",
-      "imageFileName": null,
+      "imageFileName": "leona.png",
       "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/15.18.1/img/Leona.png",
       "researchNotes": null,
       "lastReviewed": null
@@ -61,7 +61,7 @@
       "title": null,
       "difficulty": "Easy-Medium",
       "description": "Lulu provides shields, movment speed, and crowd control for her team",
-      "imageFileName": null,
+      "imageFileName": "lulu.png",
       "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/15.18.1/img/Lulu.png",
       "researchNotes": null,
       "lastReviewed": null
@@ -94,7 +94,7 @@
       "title": null,
       "difficulty": "Easy",
       "description": "Amumu has simple abilities, strong crowd control, and great team fight impact",
-      "imageFileName": null,
+      "imageFileName": "amumu.png",
       "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/15.18.1/img/Amumu.png",
       "researchNotes": null,
       "lastReviewed": null
@@ -105,7 +105,7 @@
       "title": null,
       "difficulty": "Easy",
       "description": "Master Yi has a straightforward kit focused on dealing damage and farming efficiently",
-      "imageFileName": null,
+      "imageFileName": "master-yi.png",
       "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/15.18.1/img/MasterYi.png",
       "researchNotes": null,
       "lastReviewed": null
