@@ -1,0 +1,398 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.local/schemas/league-new-player-data.schema.json",
+  "title": "League New Player Guide Data",
+  "description": "Curated champion, lane, recommendation, item and build data for the League New Player Guide.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "champions",
+    "lanes",
+    "recommendations",
+    "items",
+    "builds",
+    "buildItems"
+  ],
+  "properties": {
+    "champions": {
+      "type": "array",
+      "description": "Factual and intrinsic champion information.",
+      "items": {
+        "$ref": "#/$defs/champion"
+      }
+    },
+    "lanes": {
+      "type": "array",
+      "description": "Reference data for the five supported positions.",
+      "items": {
+        "$ref": "#/$defs/lane"
+      }
+    },
+    "recommendations": {
+      "type": "array",
+      "description": "Curated recommendations for playing a champion in a particular lane.",
+      "items": {
+        "$ref": "#/$defs/recommendation"
+      }
+    },
+    "items": {
+      "type": "array",
+      "description": "Factual item information.",
+      "items": {
+        "$ref": "#/$defs/item"
+      }
+    },
+    "builds": {
+      "type": "array",
+      "description": "Builds belonging to champion and lane recommendations.",
+      "items": {
+        "$ref": "#/$defs/build"
+      }
+    },
+    "buildItems": {
+      "type": "array",
+      "description": "Ordered items belonging to builds.",
+      "items": {
+        "$ref": "#/$defs/buildItem"
+      }
+    }
+  },
+  "$defs": {
+    "nonEmptyString": {
+      "type": "string",
+      "minLength": 1
+    },
+    "optionalText": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "optionalUri": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "uri"
+    },
+    "optionalDate": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date"
+    },
+    "difficulty": {
+      "type": "string",
+      "enum": [
+        "Easy",
+        "Medium",
+        "Hard"
+      ]
+    },
+    "yesNo": {
+      "type": "string",
+      "enum": [
+        "Yes",
+        "No"
+      ]
+    },
+    "laneId": {
+      "type": "string",
+      "enum": [
+        "TOP",
+        "JUNGLE",
+        "MID",
+        "ADC",
+        "SUPPORT"
+      ]
+    },
+    "championId": {
+      "type": "string",
+      "description": "Stable lower-case kebab-case champion identifier.",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+      "examples": [
+        "garen",
+        "miss-fortune",
+        "jarvan-iv"
+      ]
+    },
+    "itemId": {
+      "type": "string",
+      "description": "Stable lower-case kebab-case item identifier.",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+      "examples": [
+        "dorans-shield",
+        "berserkers-greaves"
+      ]
+    },
+    "recommendationId": {
+      "type": "string",
+      "description": "Sequential recommendation identifier.",
+      "pattern": "^REC[0-9]{3,}$",
+      "examples": [
+        "REC001"
+      ]
+    },
+    "buildId": {
+      "type": "string",
+      "description": "Sequential build identifier.",
+      "pattern": "^BUILD[0-9]{3,}$",
+      "examples": [
+        "BUILD001"
+      ]
+    },
+    "imageFileName": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Image file name only, without an absolute or project-relative directory path.",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*\\.(?:webp|png|jpg|jpeg|avif)$",
+      "examples": [
+        "garen.webp",
+        "dorans-shield.webp"
+      ]
+    },
+    "champion": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "championId",
+        "name"
+      ],
+      "properties": {
+        "championId": {
+          "$ref": "#/$defs/championId"
+        },
+        "name": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "title": {
+          "$ref": "#/$defs/optionalText"
+        },
+        "difficulty": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/difficulty"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "description": {
+          "$ref": "#/$defs/optionalText"
+        },
+        "imageFileName": {
+          "$ref": "#/$defs/imageFileName"
+        },
+        "sourceUrl": {
+          "$ref": "#/$defs/optionalUri"
+        },
+        "researchNotes": {
+          "$ref": "#/$defs/optionalText"
+        },
+        "lastReviewed": {
+          "$ref": "#/$defs/optionalDate"
+        }
+      }
+    },
+    "lane": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "laneId",
+        "name",
+        "displayName",
+        "description",
+        "sortOrder"
+      ],
+      "properties": {
+        "laneId": {
+          "$ref": "#/$defs/laneId"
+        },
+        "name": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "displayName": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "description": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "sortOrder": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "imageFileName": {
+          "$ref": "#/$defs/imageFileName"
+        },
+        "sourceUrl": {
+          "$ref": "#/$defs/optionalUri"
+        }
+      }
+    },
+    "recommendation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "recommendationId",
+        "championId",
+        "laneId",
+        "beginnerRating",
+        "recommended",
+        "why"
+      ],
+      "properties": {
+        "recommendationId": {
+          "$ref": "#/$defs/recommendationId"
+        },
+        "championId": {
+          "$ref": "#/$defs/championId"
+        },
+        "laneId": {
+          "$ref": "#/$defs/laneId"
+        },
+        "beginnerRating": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5,
+          "description": "1 indicates a poor beginner fit; 5 indicates an especially beginner-friendly choice."
+        },
+        "difficulty": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/difficulty"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "playStyle": {
+          "$ref": "#/$defs/optionalText"
+        },
+        "recommended": {
+          "$ref": "#/$defs/yesNo"
+        },
+        "why": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "sourceUrl": {
+          "$ref": "#/$defs/optionalUri"
+        },
+        "researchNotes": {
+          "$ref": "#/$defs/optionalText"
+        },
+        "reviewedBy": {
+          "$ref": "#/$defs/optionalText"
+        },
+        "lastReviewed": {
+          "$ref": "#/$defs/optionalDate"
+        }
+      }
+    },
+    "item": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "itemId",
+        "name"
+      ],
+      "properties": {
+        "itemId": {
+          "$ref": "#/$defs/itemId"
+        },
+        "name": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "description": {
+          "$ref": "#/$defs/optionalText"
+        },
+        "imageFileName": {
+          "$ref": "#/$defs/imageFileName"
+        },
+        "sourceUrl": {
+          "$ref": "#/$defs/optionalUri"
+        },
+        "researchNotes": {
+          "$ref": "#/$defs/optionalText"
+        },
+        "lastReviewed": {
+          "$ref": "#/$defs/optionalDate"
+        }
+      }
+    },
+    "build": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "buildId",
+        "recommendationId",
+        "name",
+        "isPrimary"
+      ],
+      "properties": {
+        "buildId": {
+          "$ref": "#/$defs/buildId"
+        },
+        "recommendationId": {
+          "$ref": "#/$defs/recommendationId"
+        },
+        "name": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "description": {
+          "$ref": "#/$defs/optionalText"
+        },
+        "isPrimary": {
+          "$ref": "#/$defs/yesNo"
+        },
+        "sourceUrl": {
+          "$ref": "#/$defs/optionalUri"
+        },
+        "researchNotes": {
+          "$ref": "#/$defs/optionalText"
+        },
+        "lastReviewed": {
+          "$ref": "#/$defs/optionalDate"
+        }
+      }
+    },
+    "buildItem": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "buildId",
+        "itemId",
+        "stage",
+        "sortOrder"
+      ],
+      "properties": {
+        "buildId": {
+          "$ref": "#/$defs/buildId"
+        },
+        "itemId": {
+          "$ref": "#/$defs/itemId"
+        },
+        "stage": {
+          "type": "string",
+          "enum": [
+            "Starting",
+            "Boots",
+            "Core",
+            "Situational"
+          ]
+        },
+        "sortOrder": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "reason": {
+          "$ref": "#/$defs/optionalText"
+        }
+      }
+    }
+  }
+}

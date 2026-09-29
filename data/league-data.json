@@ -1,0 +1,251 @@
+{
+  "champions": [
+    {
+      "championId": "garen",
+      "name": "Garen",
+      "title": "test title",
+      "difficulty": "Easy",
+      "description": "Garen has a simple abilitie kit,strong durability and no resource managment",
+      "imageFileName": "garen.png",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/15.18.1/img/Garen.png",
+      "researchNotes": "Initial example record; Jan to research and complete factual fields and source.",
+      "lastReviewed": null
+    },
+    {
+      "championId": "lux",
+      "name": "Lux",
+      "title": null,
+      "difficulty": "Easy",
+      "description": null,
+      "imageFileName": null,
+      "sourceUrl": null,
+      "researchNotes": "Initial example record; Jan to research and complete factual fields and source.",
+      "lastReviewed": null
+    },
+    {
+      "championId": "malphite",
+      "name": "Malphite",
+      "title": null,
+      "difficulty": "Easy-Medium",
+      "description": "Malphite is a tank champion with straightforward abilities and excellent survivalbility",
+      "imageFileName": null,
+      "sourceUrl": "https://ddragon.leagueoflegends.com/15.18.1/img/Malphte.png",
+      "researchNotes": "Initial example record; Jan to research and complete factual fields and source.",
+      "lastReviewed": null
+    },
+    {
+      "championId": "soraka",
+      "name": "Soraka",
+      "title": null,
+      "difficulty": "Easy",
+      "description": "Her main job is healing allies and she has simple abilities",
+      "imageFileName": null,
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/15.18.1/img/Soraka.png",
+      "researchNotes": null,
+      "lastReviewed": null
+    },
+    {
+      "championId": "leona",
+      "name": "Leona",
+      "title": null,
+      "difficulty": "Easy",
+      "description": "She is a tank support with strong crowd control and straightforward abilities",
+      "imageFileName": null,
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/15.18.1/img/Leona.png",
+      "researchNotes": null,
+      "lastReviewed": null
+    },
+    {
+      "championId": "lulu",
+      "name": "Lulu",
+      "title": null,
+      "difficulty": "Easy-Medium",
+      "description": "Lulu provides shields, movment speed, and crowd control for her team",
+      "imageFileName": null,
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/15.18.1/img/Lulu.png",
+      "researchNotes": null,
+      "lastReviewed": null
+    },
+    {
+      "championId": "darius",
+      "name": "Darius",
+      "title": null,
+      "difficulty": "Easy",
+      "description": "Darius is a powerful fighter with a simple but effective kit",
+      "imageFileName": "darius.png",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/15.18.1/img/Darius.png",
+      "researchNotes": null,
+      "lastReviewed": null
+    },
+    {
+      "championId": "warwick",
+      "name": "Warwick",
+      "title": null,
+      "difficulty": "Easy",
+      "description": "He has a strong sustain through healing, a healthy jungle clear and a passive that helps track low-health enemies",
+      "imageFileName": "warwick.png",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/15.18.1/img/Warwick.png",
+      "researchNotes": null,
+      "lastReviewed": null
+    },
+    {
+      "championId": "amumu",
+      "name": "Amumu",
+      "title": null,
+      "difficulty": "Easy",
+      "description": "Amumu has simple abilities, strong crowd control, and great team fight impact",
+      "imageFileName": null,
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/15.18.1/img/Amumu.png",
+      "researchNotes": null,
+      "lastReviewed": null
+    },
+    {
+      "championId": "master-yi",
+      "name": "Master Yi",
+      "title": null,
+      "difficulty": "Easy",
+      "description": "Master Yi has a straightforward kit focused on dealing damage and farming efficiently",
+      "imageFileName": null,
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/15.18.1/img/MasterYi.png",
+      "researchNotes": null,
+      "lastReviewed": null
+    }
+  ],
+  "lanes": [
+    {
+      "laneId": "TOP",
+      "name": "Top",
+      "displayName": "Top Lane",
+      "description": "Solo lane, typically home to durable fighters, tanks and duelists.",
+      "sortOrder": 1,
+      "imageFileName": null,
+      "sourceUrl": null
+    },
+    {
+      "laneId": "JUNGLE",
+      "name": "Jungle",
+      "displayName": "Jungle",
+      "description": "Moves between lanes and jungle camps, helping teammates and contesting objectives.",
+      "sortOrder": 2,
+      "imageFileName": null,
+      "sourceUrl": null
+    },
+    {
+      "laneId": "MID",
+      "name": "Mid",
+      "displayName": "Mid Lane",
+      "description": "Central solo lane often used by mages, assassins and other champions with strong map influence.",
+      "sortOrder": 3,
+      "imageFileName": null,
+      "sourceUrl": null
+    },
+    {
+      "laneId": "ADC",
+      "name": "ADC",
+      "displayName": "Bottom / ADC",
+      "description": "Usually a ranged damage dealer who farms in the bottom lane alongside Support.",
+      "sortOrder": 4,
+      "imageFileName": null,
+      "sourceUrl": null
+    },
+    {
+      "laneId": "SUPPORT",
+      "name": "Support",
+      "displayName": "Support",
+      "description": "Helps the team through protection, initiation, crowd control, vision and utility.",
+      "sortOrder": 5,
+      "imageFileName": null,
+      "sourceUrl": null
+    }
+  ],
+  "recommendations": [
+    {
+      "recommendationId": "REC001",
+      "championId": "garen",
+      "laneId": "TOP",
+      "beginnerRating": 5,
+      "difficulty": "Easy",
+      "playStyle": "Fighter / Tank",
+      "recommended": "Yes",
+      "why": "Simple abilities and forgiving play style.",
+      "sourceUrl": null,
+      "researchNotes": "Initial example recommendation; Jan should review, research and cite the recommendation.",
+      "reviewedBy": null,
+      "lastReviewed": null
+    },
+    {
+      "recommendationId": "REC002",
+      "championId": "soraka",
+      "laneId": "SUPPORT",
+      "beginnerRating": 5,
+      "difficulty": "Easy",
+      "playStyle": "Healer",
+      "recommended": "Yes",
+      "why": "Simple abilities and forgiving play style.",
+      "sourceUrl": null,
+      "researchNotes": null,
+      "reviewedBy": null,
+      "lastReviewed": null
+    },
+    {
+      "recommendationId": "REC003",
+      "championId": "leona",
+      "laneId": "SUPPORT",
+      "beginnerRating": 4,
+      "difficulty": "Easy",
+      "playStyle": "Tank",
+      "recommended": "Yes",
+      "why": "Much durability and aggressive play style",
+      "sourceUrl": null,
+      "researchNotes": null,
+      "reviewedBy": null,
+      "lastReviewed": null
+    },
+    {
+      "recommendationId": "REC004",
+      "championId": "lulu",
+      "laneId": "SUPPORT",
+      "beginnerRating": 4,
+      "difficulty": "Easy-Meduim",
+      "playStyle": "Enhancing",
+      "recommended": "Yes",
+      "why": "Strong shielding and relatively easy to understand",
+      "sourceUrl": null,
+      "researchNotes": null,
+      "reviewedBy": null,
+      "lastReviewed": null
+    }
+  ],
+  "items": [
+    {
+      "itemId": "dorans-shield",
+      "name": "Doran's Shield",
+      "description": null,
+      "imageFileName": null,
+      "sourceUrl": null,
+      "researchNotes": "Initial filename/ID example; Jan to confirm item facts and source.",
+      "lastReviewed": null
+    }
+  ],
+  "builds": [
+    {
+      "buildId": "BUILD001",
+      "recommendationId": "REC001",
+      "name": "Beginner Top Build",
+      "description": "Example build record; intern to research and populate the actual build.",
+      "isPrimary": "Yes",
+      "sourceUrl": null,
+      "researchNotes": "Initial structural example only.",
+      "lastReviewed": null
+    }
+  ],
+  "buildItems": [
+    {
+      "buildId": "BUILD001",
+      "itemId": "dorans-shield",
+      "stage": "Starting",
+      "sortOrder": 1,
+      "reason": "Jan to research and explain why this item belongs in the build."
+    }
+  ]
+}

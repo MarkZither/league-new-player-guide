@@ -1,0 +1,18 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Open in Paint.NET",
+            "type": "process",
+            "command": "cmd",
+            "args": [
+                "/c",
+                "start",
+                "",
+                "C:\\Program Files\\paint.net\\paintdotnet.exe",
+                "${file}"
+            ],
+            "problemMatcher": []
+        }
+    ]
+}
