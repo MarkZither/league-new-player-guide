@@ -77,3 +77,8 @@ export function getChampionSummaries(): ChampionSummary[] {
       (a.bestRecommendation?.beginnerRating ?? 0)
   );
 }
+
+/** All lanes, ordered for display in menus and filters. */
+export function getLanes(): Lane[] {
+  return [...data.lanes].sort((a, b) => a.sortOrder - b.sortOrder);
+}
