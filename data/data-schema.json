@@ -11,7 +11,8 @@
     "recommendations",
     "items",
     "builds",
-    "buildItems"
+    "buildItems",
+    "runes"
   ],
   "properties": {
     "champions": {
@@ -54,6 +55,13 @@
       "description": "Ordered items belonging to builds.",
       "items": {
         "$ref": "#/$defs/buildItem"
+      }
+    },
+    "runes": {
+      "type": "array",
+      "description": "Factual keystone rune information.",
+      "items": {
+        "$ref": "#/$defs/rune"
       }
     }
   },
@@ -124,6 +132,25 @@
       "examples": [
         "dorans-shield",
         "berserkers-greaves"
+      ]
+    },
+    "runeId": {
+      "type": "string",
+      "description": "Stable lower-case kebab-case keystone rune identifier.",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+      "examples": [
+        "conqueror",
+        "grasp-of-the-undying"
+      ]
+    },
+    "runePath": {
+      "type": "string",
+      "enum": [
+        "Precision",
+        "Domination",
+        "Sorcery",
+        "Resolve",
+        "Inspiration"
       ]
     },
     "recommendationId": {
@@ -279,6 +306,20 @@
         "why": {
           "$ref": "#/$defs/nonEmptyString"
         },
+        "keystoneRuneId": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/runeId"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "The recommended keystone rune for this champion/lane pairing, if one has been curated."
+        },
+        "runeReason": {
+          "$ref": "#/$defs/optionalText"
+        },
         "sourceUrl": {
           "$ref": "#/$defs/optionalUri"
         },
@@ -318,6 +359,44 @@
         },
         "researchNotes": {
           "$ref": "#/$defs/optionalText"
+        },
+        "lastReviewed": {
+          "$ref": "#/$defs/optionalDate"
+        }
+      }
+    },
+    "rune": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "runeId",
+        "name",
+        "path",
+        "sortOrder"
+      ],
+      "properties": {
+        "runeId": {
+          "$ref": "#/$defs/runeId"
+        },
+        "name": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "path": {
+          "$ref": "#/$defs/runePath"
+        },
+        "description": {
+          "$ref": "#/$defs/optionalText"
+        },
+        "sortOrder": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "Display order of the rune within its path."
+        },
+        "imageFileName": {
+          "$ref": "#/$defs/imageFileName"
+        },
+        "sourceUrl": {
+          "$ref": "#/$defs/optionalUri"
         },
         "lastReviewed": {
           "$ref": "#/$defs/optionalDate"

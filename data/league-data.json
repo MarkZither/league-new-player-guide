@@ -39,7 +39,7 @@
       "title": null,
       "difficulty": "Easy",
       "description": "Her main job is healing allies and she has simple abilities",
-      "imageFileName": "soraka.png",
+      "imageFileName": "Soraka.png",
       "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/15.18.1/img/Soraka.png",
       "researchNotes": null,
       "lastReviewed": null
@@ -48,9 +48,9 @@
       "championId": "leona",
       "name": "Leona",
       "title": null,
-      "difficulty": "Easy",
+      "difficulty": "Easy-Medium",
       "description": "She is a tank support with strong crowd control and straightforward abilities",
-      "imageFileName": "leona.png",
+      "imageFileName": "Leona.png",
       "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/15.18.1/img/Leona.png",
       "researchNotes": null,
       "lastReviewed": null
@@ -61,7 +61,7 @@
       "title": null,
       "difficulty": "Easy-Medium",
       "description": "Lulu provides shields, movment speed, and crowd control for her team",
-      "imageFileName": "lulu.png",
+      "imageFileName": "Lulu.png",
       "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/15.18.1/img/Lulu.png",
       "researchNotes": null,
       "lastReviewed": null
@@ -70,10 +70,21 @@
       "championId": "darius",
       "name": "Darius",
       "title": null,
-      "difficulty": "Easy",
+      "difficulty": "Easy-Medium",
       "description": "Darius is a powerful fighter with a simple but effective kit",
       "imageFileName": "darius.png",
       "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/15.18.1/img/Darius.png",
+      "researchNotes": null,
+      "lastReviewed": null
+    },
+    {
+      "championId": "malphite",
+      "name": "Malphite",
+      "title": null,
+      "difficulty": "Easy",
+      "description": "Malphite is a tank champion with straightforward abilities and excellent survivalbility",
+      "imageFileName": null,
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/15.18.1/img/Malphite.png",
       "researchNotes": null,
       "lastReviewed": null
     },
@@ -94,7 +105,7 @@
       "title": null,
       "difficulty": "Easy",
       "description": "Amumu has simple abilities, strong crowd control, and great team fight impact",
-      "imageFileName": "amumu.png",
+      "imageFileName": "Amumu.png",
       "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/15.18.1/img/Amumu.png",
       "researchNotes": null,
       "lastReviewed": null
@@ -103,10 +114,76 @@
       "championId": "master-yi",
       "name": "Master Yi",
       "title": null,
-      "difficulty": "Easy",
+      "difficulty": "Easy-Medium",
       "description": "Master Yi has a straightforward kit focused on dealing damage and farming efficiently",
-      "imageFileName": "master-yi.png",
+      "imageFileName": null,
       "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/15.18.1/img/MasterYi.png",
+      "researchNotes": null,
+      "lastReviewed": null
+    },
+    {
+      "championId": "annie",
+      "name": "Annie",
+      "title": null,
+      "difficulty": "Easy",
+      "description": "Annie has simple abilities, reliable damage, and a powerful stun",
+      "imageFileName": "Annie.png",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/15.18.1/img/Annie.png",
+      "researchNotes": null,
+      "lastReviewed": null
+    },
+    {
+      "championId": "lux",
+      "name": "Lux",
+      "title": null,
+      "difficulty": "Easy-Medium",
+      "description": "Lux has strong abilities,which include a stun and allow her a high damage output from a safe distance",
+      "imageFileName": null,
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/15.18.1/img/Lux.png",
+      "researchNotes": null,
+      "lastReviewed": null
+    },
+    {
+      "championId": "malzahar",
+      "name": "Malzahar",
+      "title": null,
+      "difficulty": "Easy-Medium",
+      "description": "Malzahar has straightforward gameplay, easy wave clearing and a targeted ultimate ability that can lock down enemy champions",
+      "imageFileName": null,
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/15.18.1/img/Malzahar",
+      "researchNotes": null,
+      "lastReviewed": null
+    },
+    {
+      "championId": "ashe",
+      "name": "Ashe",
+      "title": null,
+      "difficulty": "Easy",
+      "description": "Ashe has straightforward abilities, long attack range, and useful crowd control",
+      "imageFileName": null,
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/15.18.1/img/Ashe.png",
+      "researchNotes": null,
+      "lastReviewed": null
+    },
+    {
+      "championId": "miss-fortune",
+      "name": "Miss Fortune",
+      "title": null,
+      "difficulty": "Easy",
+      "description": "Miss Fortune has simple abilities, strong lane presence, and a powerful ultimate that is easy to use in team fights",
+      "imageFileName": null,
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/15.18.1/img/MissFortune.png",
+      "researchNotes": null,
+      "lastReviewed": null
+    },
+    {
+      "championId": "caitlyn",
+      "name": "Caitlyn",
+      "title": null,
+      "difficulty": "Easy-Medium",
+      "description": "Caitlyn's long attack range makes farming and bullying opponents safer",
+      "imageFileName": null,
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/15.18.1/img/Caitlyn.png",
       "researchNotes": null,
       "lastReviewed": null
     }
@@ -168,6 +245,8 @@
       "playStyle": "Fighter / Tank",
       "recommended": "Yes",
       "why": "Simple abilities and forgiving play style.",
+      "keystoneRuneId": null,
+      "runeReason": null,
       "sourceUrl": null,
       "researchNotes": "Initial example recommendation; Jan should review, research and cite the recommendation.",
       "reviewedBy": null,
@@ -182,6 +261,8 @@
       "playStyle": "Healer",
       "recommended": "Yes",
       "why": "Simple abilities and forgiving play style.",
+      "keystoneRuneId": null,
+      "runeReason": null,
       "sourceUrl": null,
       "researchNotes": null,
       "reviewedBy": null,
@@ -192,10 +273,12 @@
       "championId": "leona",
       "laneId": "SUPPORT",
       "beginnerRating": 4,
-      "difficulty": "Easy",
+      "difficulty": "Easy-Meduim",
       "playStyle": "Tank",
       "recommended": "Yes",
       "why": "Much durability and aggressive play style",
+      "keystoneRuneId": null,
+      "runeReason": null,
       "sourceUrl": null,
       "researchNotes": null,
       "reviewedBy": null,
@@ -210,6 +293,248 @@
       "playStyle": "Enhancing",
       "recommended": "Yes",
       "why": "Strong shielding and relatively easy to understand",
+      "keystoneRuneId": "conqueror",
+      "runeReason": null,
+      "sourceUrl": null,
+      "researchNotes": null,
+      "reviewedBy": null,
+      "lastReviewed": null
+    },
+    {
+      "recommendationId": "REC005",
+      "championId": "darius",
+      "laneId": "TOP",
+      "beginnerRating": 4,
+      "difficulty": "Easy-Meduim",
+      "playStyle": "Fighter/Tank",
+      "recommended": "Yes",
+      "why": "Powerful fighter with a simple but effective kit",
+      "keystoneRuneId": null,
+      "runeReason": null,
+      "sourceUrl": null,
+      "researchNotes": null,
+      "reviewedBy": null,
+      "lastReviewed": null
+    },
+    {
+      "recommendationId": "REC006",
+      "championId": "garen",
+      "laneId": "TOP",
+      "beginnerRating": 5,
+      "difficulty": "Easy",
+      "playStyle": "Fighter/Tank",
+      "recommended": "Yes",
+      "why": "Simple abilitie kit, strong durability, and no resource managment",
+      "keystoneRuneId": null,
+      "runeReason": null,
+      "sourceUrl": null,
+      "researchNotes": null,
+      "reviewedBy": null,
+      "lastReviewed": null
+    },
+        {
+      "recommendationId": "REC0026",
+      "championId": "garen",
+      "laneId": "SUPPORT",
+      "beginnerRating": 5,
+      "difficulty": "Easy",
+      "playStyle": "Fighter/Tank",
+      "recommended": "Yes",
+      "why": "Simple abilitie kit, strong durability, and no resource managment",
+      "keystoneRuneId": null,
+      "runeReason": null,
+      "sourceUrl": null,
+      "researchNotes": null,
+      "reviewedBy": null,
+      "lastReviewed": null
+    },
+    {
+      "recommendationId": "REC007",
+      "championId": "malphite",
+      "laneId": "TOP",
+      "beginnerRating": 5,
+      "difficulty": "Easy",
+      "playStyle": "Tank",
+      "recommended": "Yes",
+      "why": "excellent survivability, and straightforward abilities",
+      "keystoneRuneId": null,
+      "runeReason": null,
+      "sourceUrl": null,
+      "researchNotes": null,
+      "reviewedBy": null,
+      "lastReviewed": null
+    },
+    {
+      "recommendationId": "REC008",
+      "championId": "warwick",
+      "laneId": "Jungle",
+      "beginnerRating": 5,
+      "difficulty": "Easy",
+      "playStyle": "Fighter",
+      "recommended": "Yes",
+      "why": "Much sustain through healing, and a simple jungle clear",
+      "keystoneRuneId": null,
+      "runeReason": null,
+      "sourceUrl": null,
+      "researchNotes": null,
+      "reviewedBy": null,
+      "lastReviewed": null
+    },
+    {
+      "recommendationId": "REC009",
+      "championId": "amumu",
+      "laneId": "Jungle",
+      "beginnerRating": 5,
+      "difficulty": "Easy",
+      "playStyle": "Tank",
+      "recommended": "Yes",
+      "why": "Simple abilities, strong crowd control, and his tankiness is forgiving",
+      "keystoneRuneId": null,
+      "runeReason": null,
+      "sourceUrl": null,
+      "researchNotes": null,
+      "reviewedBy": null,
+      "lastReviewed": null
+    },
+    {
+      "recommendationId": "REC010",
+      "championId": "master-yi",
+      "laneId": "Jungle",
+      "beginnerRating": 4,
+      "difficulty": "Easy-Meduim",
+      "playStyle": "Fighter",
+      "recommended": "Yes",
+      "why": "Straightforward kit which is focused on dealing damage and farming",
+      "keystoneRuneId": null,
+      "runeReason": null,
+      "sourceUrl": null,
+      "researchNotes": null,
+      "reviewedBy": null,
+      "lastReviewed": null
+    },
+    {
+      "recommendationId": "REC011",
+      "championId": "annie",
+      "laneId": "MID",
+      "beginnerRating": 5,
+      "difficulty": "Easy",
+      "playStyle": "Mage",
+      "recommended": "Yes",
+      "why": "Simple abilities, reliable damage, and a powerful stun",
+      "keystoneRuneId": null,
+      "runeReason": null,
+      "sourceUrl": null,
+      "researchNotes": null,
+      "reviewedBy": null,
+      "lastReviewed": null
+    },
+    {
+      "recommendationId": "REC012",
+      "championId": "lux",
+      "laneId": "MID",
+      "beginnerRating": 4,
+      "difficulty": "Easy-Meduim",
+      "playStyle": "Mage",
+      "recommended": "Yes",
+      "why": "Long range abilities that allow to safely damage enemies",
+      "keystoneRuneId": null,
+      "runeReason": null,
+      "sourceUrl": null,
+      "researchNotes": null,
+      "reviewedBy": null,
+      "lastReviewed": null
+    },
+    {
+      "recommendationId": "REC013",
+      "championId": "malzahar",
+      "laneId": "MID",
+      "beginnerRating": 4,
+      "difficulty": "Easy-Meduim",
+      "playStyle": "Mage",
+      "recommended": "Yes",
+      "why": "Easy wave clearing and a targeted lock down ultimate",
+      "keystoneRuneId": null,
+      "runeReason": null,
+      "sourceUrl": null,
+      "researchNotes": null,
+      "reviewedBy": null,
+      "lastReviewed": null
+    },
+    {
+      "recommendationId": "REC014",
+      "championId": "ashe",
+      "laneId": "ADC",
+      "beginnerRating": 5,
+      "difficulty": "Easy",
+      "playStyle": "Ranged Fighter",
+      "recommended": "Yes",
+      "why": "Straightforward abilities, long attack range, and crowd control",
+      "keystoneRuneId": null,
+      "runeReason": null,
+      "sourceUrl": null,
+      "researchNotes": null,
+      "reviewedBy": null,
+      "lastReviewed": null
+    },
+    {
+      "recommendationId": "REC015",
+      "championId": "miss-fortune",
+      "laneId": "ADC",
+      "beginnerRating": 5,
+      "difficulty": "Easy",
+      "playStyle": "Ranged Fighter",
+      "recommended": "Yes",
+      "why": "Simple abilities,strong lane presence, and a powerful ultimate",
+      "keystoneRuneId": null,
+      "runeReason": null,
+      "sourceUrl": null,
+      "researchNotes": null,
+      "reviewedBy": null,
+      "lastReviewed": null
+    },
+    {
+      "recommendationId": "REC016",
+      "championId": "caitlyn",
+      "laneId": "ADC",
+      "beginnerRating": 4,
+      "difficulty": "Easy-Meduim",
+      "playStyle": "Ranged Fighter",
+      "recommended": "Yes",
+      "why": "Long attack range, easy farming, good lane control",
+      "keystoneRuneId": null,
+      "runeReason": null,
+      "sourceUrl": null,
+      "researchNotes": null,
+      "reviewedBy": null,
+      "lastReviewed": null
+    },
+    {
+      "recommendationId": "REC017",
+      "championId": "garen",
+      "laneId": "MID",
+      "beginnerRating": null,
+      "difficulty": null,
+      "playStyle": null,
+      "recommended": "No",
+      "why": "",
+      "keystoneRuneId": null,
+      "runeReason": null,
+      "sourceUrl": null,
+      "researchNotes": null,
+      "reviewedBy": null,
+      "lastReviewed": null
+    },
+    {
+      "recommendationId": "REC018",
+      "championId": "warwick",
+      "laneId": "TOP",
+      "beginnerRating": 5,
+      "difficulty": "Easy",
+      "playStyle": "Fighter",
+      "recommended": "Yes",
+      "why": "Much sustain through healing, and an easy preasure build up on the enemy Champion",
+      "keystoneRuneId": null,
+      "runeReason": null,
       "sourceUrl": null,
       "researchNotes": null,
       "reviewedBy": null,
@@ -225,6 +550,132 @@
       "sourceUrl": null,
       "researchNotes": "Initial filename/ID example; Jan to confirm item facts and source.",
       "lastReviewed": null
+    },
+    {
+      "itemId": "dorans-shield",
+      "name": "Doran's Shield",
+      "description": "Grants health and health regeneration.Taking damage from enemys restores health over time",
+      "imageFileName": null,
+      "sourceUrl": null,
+      "researchNotes": null,
+      "lastReviewed": null
+    },
+    {
+      "itemId": "stridebreaker",
+      "name": "Stridebreaker",
+      "description": "Provides attack damage, attack speed, health.Its active effect damages and slows nearby enemies",
+      "imageFileName": null,
+      "sourceUrl": null,
+      "researchNotes": null,
+      "lastReviewed": null
+    },
+    {
+      "itemId": "beserkers-greaves",
+      "name": "Berserker's Greaves",
+      "description": "Boots that provide attack speed, increasing attack frequency and improving certain champion abilities",
+      "imageFileName": null,
+      "sourceUrl": null,
+      "researchNotes": null,
+      "lastReviewed": null
+    },
+    {
+      "itemId": "phantom-dancer",
+      "name": "Phantom Dancer",
+      "description": "Provides attack speed,critical strike chance, and movement speed.Attacking enemies grants additional combat mobility",
+      "imageFileName": null,
+      "sourceUrl": null,
+      "researchNotes": null,
+      "lastReviewed": null
+    },
+    {
+      "itemId": "dead-mans-plate",
+      "name": "Dead Man's Plate",
+      "description": "Provides health and armor.Moving builds momentum, increasing movement speed and empowering your next attack",
+      "imageFileName": null,
+      "sourceUrl": null,
+      "researchNotes": null,
+      "lastReviewed": null
+    },
+    {
+      "itemId": "force-of-nature",
+      "name": "Force of Nature",
+      "description": "Provides health and magic resistance.Taking magic damage grants increased mobility and magic durability",
+      "imageFileName": null,
+      "sourceUrl": null,
+      "researchNotes": null,
+      "lastReviewed": null
+    },
+    {
+      "itemId": "steraks-gage",
+      "name": "Sterak's Gage",
+      "description": "Provides health and bonus attack damage.Taking heavy damage grants a temporary shield",
+      "imageFileName": null,
+      "sourceUrl": null,
+      "researchNotes": null,
+      "lastReviewed": null
+    },
+    {
+      "itemId": "scorchclaw-pup",
+      "name": "Scorchclaw Pup",
+      "description": "Jungle companion that helps clear camps and eventually grants a damaging burn effect against champions.",
+      "imageFileName": null,
+      "sourceUrl": null,
+      "researchNotes": null,
+      "lastReviewed": null
+    },
+    {
+      "itemId": "plated-steelcaps",
+      "name": "Plated Steelcaps",
+      "description": "Boots that provide Armor and reduce damage from enemy basic attacks.",
+      "imageFileName": null,
+      "sourceUrl": null,
+      "researchNotes": null,
+      "lastReviewed": null
+    },
+    {
+      "itemId": "spirit-visage",
+      "name": "Spirit Visage",
+      "description": "Grants Health and Magic Resistance while increasing healing received.",
+      "imageFileName": null,
+      "sourceUrl": null,
+      "researchNotes": null,
+      "lastReviewed": null
+    },
+    {
+      "itemId": "thornmail",
+      "name": "Thornmail",
+      "description": " Grants Health and Armor. Applies Grievous Wounds to enemies that damage you.",
+      "imageFileName": null,
+      "sourceUrl": null,
+      "researchNotes": null,
+      "lastReviewed": null
+    },
+    {
+      "itemId": "guardian-angel",
+      "name": "Guardian Angel",
+      "description": "Grants Attack Damage and Armor. Revives you upon death.",
+      "imageFileName": null,
+      "sourceUrl": null,
+      "researchNotes": null,
+      "lastReviewed": null
+    },
+    {
+      "itemId": "dorans-blade",
+      "name": "Doran's Blade",
+      "description": "Grants Health, Attack Damage, and Life Steal",
+      "imageFileName": null,
+      "sourceUrl": null,
+      "researchNotes": null,
+      "lastReviewed": null
+    },
+    {
+      "itemId": "blade-of-the-ruined-king",
+      "name": "Blade of the Ruined King",
+      "description": "Grants Attack Damage, Attack Speed, and Life Steal. Attacks deal bonus damage based on enemy health",
+      "imageFileName": null,
+      "sourceUrl": null,
+      "researchNotes": null,
+      "lastReviewed": null
     }
   ],
   "builds": [
@@ -237,6 +688,36 @@
       "sourceUrl": null,
       "researchNotes": "Initial structural example only.",
       "lastReviewed": null
+    },
+    {
+      "buildId": "BUILD002",
+      "recommendationId": "REC006",
+      "name": "Garen Top Build",
+      "description": null,
+      "isPrimary": "",
+      "sourceUrl": null,
+      "researchNotes": null,
+      "lastReviewed": null
+    },
+    {
+      "buildId": "BUILD003",
+      "recommendationId": "REC008",
+      "name": "Warwick Jungle Build",
+      "description": null,
+      "isPrimary": "",
+      "sourceUrl": null,
+      "researchNotes": null,
+      "lastReviewed": null
+    },
+    {
+      "buildId": "BUILD004",
+      "recommendationId": "REC018",
+      "name": "Warwick Top Build",
+      "description": null,
+      "isPrimary": "",
+      "sourceUrl": null,
+      "researchNotes": null,
+      "lastReviewed": null
     }
   ],
   "buildItems": [
@@ -246,6 +727,325 @@
       "stage": "Starting",
       "sortOrder": 1,
       "reason": "Jan to research and explain why this item belongs in the build."
+    },
+    {
+      "buildId": "BUILD002",
+      "itemId": "dorans-shield",
+      "stage": "",
+      "sortOrder": 1,
+      "reason": null
+    },
+    {
+      "buildId": "BUILD002",
+      "itemId": "stridebreaker",
+      "stage": "",
+      "sortOrder": 2,
+      "reason": null
+    },
+    {
+      "buildId": "BUILD002",
+      "itemId": "beserkers-greaves",
+      "stage": "",
+      "sortOrder": 3,
+      "reason": null
+    },
+    {
+      "buildId": "BUILD002",
+      "itemId": "phantom-dancer",
+      "stage": "",
+      "sortOrder": 4,
+      "reason": null
+    },
+    {
+      "buildId": "BUILD002",
+      "itemId": "dead-mans-plate",
+      "stage": "",
+      "sortOrder": 5,
+      "reason": null
+    },
+    {
+      "buildId": "BUILD002",
+      "itemId": "force-of-nature",
+      "stage": "",
+      "sortOrder": 6,
+      "reason": null
+    },
+    {
+      "buildId": "BUILD002",
+      "itemId": "steraks-gage",
+      "stage": "",
+      "sortOrder": 7,
+      "reason": null
+    },
+    {
+      "buildId": "BUILD003",
+      "itemId": "scorchclaw-pup",
+      "stage": "",
+      "sortOrder": 1,
+      "reason": null
+    },
+    {
+      "buildId": "BUILD003",
+      "itemId": "stridebreaker",
+      "stage": "",
+      "sortOrder": 2,
+      "reason": null
+    },
+    {
+      "buildId": "BUILD003",
+      "itemId": "plated-steelcaps",
+      "stage": "",
+      "sortOrder": 3,
+      "reason": null
+    },
+    {
+      "buildId": "BUILD003",
+      "itemId": "spirit-visage",
+      "stage": "",
+      "sortOrder": 4,
+      "reason": null
+    },
+    {
+      "buildId": "BUILD003",
+      "itemId": "thornmail",
+      "stage": "",
+      "sortOrder": 5,
+      "reason": null
+    },
+    {
+      "buildId": "BUILD003",
+      "itemId": "steraks-gage",
+      "stage": "",
+      "sortOrder": 6,
+      "reason": null
+    },
+    {
+      "buildId": "BUILD003",
+      "itemId": "guardian-angel",
+      "stage": "",
+      "sortOrder": 7,
+      "reason": null
+    },
+    {
+      "buildId": "BUILD004",
+      "itemId": "dorans-blade",
+      "stage": "",
+      "sortOrder": 1,
+      "reason": null
+    },
+    {
+      "buildId": "BUILD004",
+      "itemId": "blade-of-the-ruined-king",
+      "stage": "",
+      "sortOrder": 2,
+      "reason": null
+    },
+    {
+      "buildId": "BUILD004",
+      "itemId": "plated-steelcaps",
+      "stage": "",
+      "sortOrder": 3,
+      "reason": null
+    },
+    {
+      "buildId": "BUILD004",
+      "itemId": "stridebreaker",
+      "stage": "",
+      "sortOrder": 4,
+      "reason": null
+    },
+    {
+      "buildId": "BUILD004",
+      "itemId": "spirit-visage",
+      "stage": "",
+      "sortOrder": 5,
+      "reason": null
+    },
+    {
+      "buildId": "BUILD004",
+      "itemId": "thornmail",
+      "stage": "",
+      "sortOrder": 6,
+      "reason": null
+    },
+    {
+      "buildId": "BUILD004",
+      "itemId": "dead-mans-plate",
+      "stage": "",
+      "sortOrder": 7,
+      "reason": null
+    }
+  ],
+  "runes": [
+    {
+      "runeId": "conqueror",
+      "name": "Conqueror",
+      "path": "Precision",
+      "description": "Rewards champions who remain in combat and build up damage.",
+      "sortOrder": 1,
+      "imageFileName": null,
+      "sourceUrl": null,
+      "lastReviewed": null
+    },
+    {
+      "runeId": "lethal-tempo",
+      "name": "Lethal Tempo",
+      "path": "Precision",
+      "description": "Supports champions who rely on repeated basic attacks in longer fights.",
+      "sortOrder": 2,
+      "imageFileName": null,
+      "sourceUrl": null,
+      "lastReviewed": null
+    },
+    {
+      "runeId": "press-the-attack",
+      "name": "Press the Attack",
+      "path": "Precision",
+      "description": "Rewards repeatedly attacking the same enemy champion.",
+      "sortOrder": 3,
+      "imageFileName": null,
+      "sourceUrl": null,
+      "lastReviewed": null
+    },
+    {
+      "runeId": "fleet-footwork",
+      "name": "Fleet Footwork",
+      "path": "Precision",
+      "description": "Provides sustain and mobility after moving and attacking.",
+      "sortOrder": 4,
+      "imageFileName": null,
+      "sourceUrl": null,
+      "lastReviewed": null
+    },
+    {
+      "runeId": "electrocute",
+      "name": "Electrocute",
+      "path": "Domination",
+      "description": "Adds burst damage after quickly hitting an enemy with several attacks or abilities.",
+      "sortOrder": 1,
+      "imageFileName": null,
+      "sourceUrl": null,
+      "lastReviewed": null
+    },
+    {
+      "runeId": "dark-harvest",
+      "name": "Dark Harvest",
+      "path": "Domination",
+      "description": "Rewards damaging low-health enemies and collecting souls over the course of a match.",
+      "sortOrder": 2,
+      "imageFileName": null,
+      "sourceUrl": null,
+      "lastReviewed": null
+    },
+    {
+      "runeId": "hail-of-blades",
+      "name": "Hail of Blades",
+      "path": "Domination",
+      "description": "Provides a rapid burst of attack speed when combat begins.",
+      "sortOrder": 3,
+      "imageFileName": null,
+      "sourceUrl": null,
+      "lastReviewed": null
+    },
+    {
+      "runeId": "summon-aery",
+      "name": "Summon Aery",
+      "path": "Sorcery",
+      "description": "Adds reliable damage to attacks and abilities or strengthens protection for allies.",
+      "sortOrder": 1,
+      "imageFileName": null,
+      "sourceUrl": null,
+      "lastReviewed": null
+    },
+    {
+      "runeId": "arcane-comet",
+      "name": "Arcane Comet",
+      "path": "Sorcery",
+      "description": "Adds ranged damage when an ability hits an enemy champion.",
+      "sortOrder": 2,
+      "imageFileName": null,
+      "sourceUrl": null,
+      "lastReviewed": null
+    },
+    {
+      "runeId": "stormraiders-surge",
+      "name": "Stormraider's Surge",
+      "path": "Sorcery",
+      "description": "Rewards dealing substantial damage quickly with a burst of movement speed.",
+      "sortOrder": 3,
+      "imageFileName": null,
+      "sourceUrl": null,
+      "lastReviewed": null
+    },
+    {
+      "runeId": "deathfire-touch",
+      "name": "Deathfire Touch",
+      "path": "Sorcery",
+      "description": "Adds a damage-over-time effect to damaging attacks and abilities.",
+      "sortOrder": 4,
+      "imageFileName": null,
+      "sourceUrl": null,
+      "lastReviewed": null
+    },
+    {
+      "runeId": "aftershock",
+      "name": "Aftershock",
+      "path": "Resolve",
+      "description": "Temporarily increases durability after immobilising an enemy.",
+      "sortOrder": 1,
+      "imageFileName": null,
+      "sourceUrl": null,
+      "lastReviewed": null
+    },
+    {
+      "runeId": "grasp-of-the-undying",
+      "name": "Grasp of the Undying",
+      "path": "Resolve",
+      "description": "Rewards periodic attacks against enemy champions during extended lane combat.",
+      "sortOrder": 2,
+      "imageFileName": null,
+      "sourceUrl": null,
+      "lastReviewed": null
+    },
+    {
+      "runeId": "guardian",
+      "name": "Guardian",
+      "path": "Resolve",
+      "description": "Protects nearby allies when they take damage.",
+      "sortOrder": 3,
+      "imageFileName": null,
+      "sourceUrl": null,
+      "lastReviewed": null
+    },
+    {
+      "runeId": "glacial-augment",
+      "name": "Glacial Augment",
+      "path": "Inspiration",
+      "description": "Creates slowing effects after immobilising an enemy.",
+      "sortOrder": 1,
+      "imageFileName": null,
+      "sourceUrl": null,
+      "lastReviewed": null
+    },
+    {
+      "runeId": "unsealed-spellbook",
+      "name": "Unsealed Spellbook",
+      "path": "Inspiration",
+      "description": "Allows summoner spells to be exchanged during the match.",
+      "sortOrder": 2,
+      "imageFileName": null,
+      "sourceUrl": null,
+      "lastReviewed": null
+    },
+    {
+      "runeId": "first-strike",
+      "name": "First Strike",
+      "path": "Inspiration",
+      "description": "Rewards initiating combat before the enemy damages you.",
+      "sortOrder": 3,
+      "imageFileName": null,
+      "sourceUrl": null,
+      "lastReviewed": null
     }
   ]
 }

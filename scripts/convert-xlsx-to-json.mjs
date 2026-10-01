@@ -111,7 +111,7 @@ function convertLanes(rows) {
   });
 }
 
-function convertRecommendations(rows, knownChampionIds) {
+function convertRecommendations(rows, knownChampionIds, knownRuneIds) {
   const warnings = [];
 
   const recommendations = rows.map((row) => {
@@ -119,6 +119,13 @@ function convertRecommendations(rows, knownChampionIds) {
     if (!knownChampionIds.has(championId)) {
       warnings.push(
         `Recommendation "${row.RecommendationId}" references unknown championId "${championId}".`
+      );
+    }
+
+    const keystoneRuneId = emptyToNull(row.KeystoneRuneId);
+    if (keystoneRuneId && !knownRuneIds.has(keystoneRuneId)) {
+      warnings.push(
+        `Recommendation "${row.RecommendationId}" references unknown keystoneRuneId "${keystoneRuneId}".`
       );
     }
 
@@ -131,6 +138,8 @@ function convertRecommendations(rows, knownChampionIds) {
       playStyle: emptyToNull(row.PlayStyle),
       recommended: String(row.Recommended ?? "").trim(),
       why: String(row.Why ?? "").trim(),
+      keystoneRuneId,
+      runeReason: emptyToNull(row.RuneReason),
       sourceUrl: emptyToNull(row.SourceUrl),
       researchNotes: emptyToNull(row.ResearchNotes),
       reviewedBy: emptyToNull(row.ReviewedBy),
@@ -139,6 +148,25 @@ function convertRecommendations(rows, knownChampionIds) {
   });
 
   return { recommendations, warnings };
+}
+
+function convertRunes(rows) {
+  return rows.map((row) => {
+    let imageFileName = emptyToNull(row.ImageFileName);
+    if (imageFileName && !fs.existsSync(path.join(publicDir, imageFileName))) {
+      imageFileName = null;
+    }
+    return {
+      runeId: String(row.RuneId ?? "").trim(),
+      name: String(row.Name ?? "").trim(),
+      path: String(row.Path ?? "").trim(),
+      description: emptyToNull(row.BeginnerDescription),
+      sortOrder: toInt(row.SortOrder),
+      imageFileName,
+      sourceUrl: emptyToNull(row.SourceUrl),
+      lastReviewed: emptyToNull(row.LastReviewed),
+    };
+  });
 }
 
 function convertItems(rows) {
@@ -190,8 +218,14 @@ function main() {
   );
   const lanes = convertLanes(readSheet(workbook, "Lanes"));
   const knownChampionIds = new Set(champions.map((c) => c.championId));
+  const runes = convertRunes(readSheet(workbook, "Runes"));
+  const knownRuneIds = new Set(runes.map((r) => r.runeId));
   const { recommendations, warnings: recommendationWarnings } =
-    convertRecommendations(readSheet(workbook, "Recommendations"), knownChampionIds);
+    convertRecommendations(
+      readSheet(workbook, "Recommendations"),
+      knownChampionIds,
+      knownRuneIds
+    );
   const items = convertItems(readSheet(workbook, "Items"));
   const builds = convertBuilds(readSheet(workbook, "Builds"));
   const buildItems = convertBuildItems(readSheet(workbook, "BuildItems"));
@@ -204,7 +238,7 @@ function main() {
     }
   }
 
-  const output = { champions, lanes, recommendations, items, builds, buildItems };
+  const output = { champions, lanes, recommendations, items, builds, buildItems, runes };
   fs.writeFileSync(outputPath, JSON.stringify(output, null, 2) + "\n");
   console.log(`Wrote ${path.relative(process.cwd(), outputPath)}`);
 }
