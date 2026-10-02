@@ -1,39 +1,6 @@
 {
   "champions": [
     {
-      "championId": "garen",
-      "name": "Garen",
-      "title": "test title",
-      "difficulty": "Easy",
-      "description": "Garen has a simple abilitie kit,strong durability and no resource managment",
-      "imageFileName": "garen.png",
-      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/15.18.1/img/Garen.png",
-      "researchNotes": "Initial example record; Jan to research and complete factual fields and source.",
-      "lastReviewed": null
-    },
-    {
-      "championId": "lux",
-      "name": "Lux",
-      "title": null,
-      "difficulty": "Easy",
-      "description": null,
-      "imageFileName": null,
-      "sourceUrl": null,
-      "researchNotes": "Initial example record; Jan to research and complete factual fields and source.",
-      "lastReviewed": null
-    },
-    {
-      "championId": "malphite",
-      "name": "Malphite",
-      "title": null,
-      "difficulty": "Easy-Medium",
-      "description": "Malphite is a tank champion with straightforward abilities and excellent survivalbility",
-      "imageFileName": null,
-      "sourceUrl": "https://ddragon.leagueoflegends.com/15.18.1/img/Malphte.png",
-      "researchNotes": "Initial example record; Jan to research and complete factual fields and source.",
-      "lastReviewed": null
-    },
-    {
       "championId": "soraka",
       "name": "Soraka",
       "title": null,
@@ -78,6 +45,17 @@
       "lastReviewed": null
     },
     {
+      "championId": "garen",
+      "name": "Garen",
+      "title": null,
+      "difficulty": "Easy",
+      "description": "Garen has a simple abilitie kit,strong durability and no resource managment",
+      "imageFileName": "garen.png",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/15.18.1/img/Garen.png",
+      "researchNotes": null,
+      "lastReviewed": null
+    },
+    {
       "championId": "malphite",
       "name": "Malphite",
       "title": null,
@@ -116,7 +94,7 @@
       "title": null,
       "difficulty": "Easy-Medium",
       "description": "Master Yi has a straightforward kit focused on dealing damage and farming efficiently",
-      "imageFileName": null,
+      "imageFileName": "MasterYi.png",
       "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/15.18.1/img/MasterYi.png",
       "researchNotes": null,
       "lastReviewed": null
@@ -150,7 +128,7 @@
       "difficulty": "Easy-Medium",
       "description": "Malzahar has straightforward gameplay, easy wave clearing and a targeted ultimate ability that can lock down enemy champions",
       "imageFileName": null,
-      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/15.18.1/img/Malzahar",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/15.18.1/img/Malzahar.png",
       "researchNotes": null,
       "lastReviewed": null
     },
@@ -237,22 +215,6 @@
   ],
   "recommendations": [
     {
-      "recommendationId": "REC001",
-      "championId": "garen",
-      "laneId": "TOP",
-      "beginnerRating": 5,
-      "difficulty": "Easy",
-      "playStyle": "Fighter / Tank",
-      "recommended": "Yes",
-      "why": "Simple abilities and forgiving play style.",
-      "keystoneRuneId": null,
-      "runeReason": null,
-      "sourceUrl": null,
-      "researchNotes": "Initial example recommendation; Jan should review, research and cite the recommendation.",
-      "reviewedBy": null,
-      "lastReviewed": null
-    },
-    {
       "recommendationId": "REC002",
       "championId": "soraka",
       "laneId": "SUPPORT",
@@ -261,8 +223,8 @@
       "playStyle": "Healer",
       "recommended": "Yes",
       "why": "Simple abilities and forgiving play style.",
-      "keystoneRuneId": null,
-      "runeReason": null,
+      "keystoneRuneId": "summon-aery",
+      "runeReason": "Summon Aery helps Soraka heal allies more effectively and also adds extra damage when poking enemies with abilities",
       "sourceUrl": null,
       "researchNotes": null,
       "reviewedBy": null,
@@ -273,12 +235,12 @@
       "championId": "leona",
       "laneId": "SUPPORT",
       "beginnerRating": 4,
-      "difficulty": "Easy-Meduim",
+      "difficulty": "Easy-Medium",
       "playStyle": "Tank",
       "recommended": "Yes",
       "why": "Much durability and aggressive play style",
-      "keystoneRuneId": null,
-      "runeReason": null,
+      "keystoneRuneId": "aftershock",
+      "runeReason": "Aftershock gives her bonus defenses and deals damage around her, whenever she immobilizes a target",
       "sourceUrl": null,
       "researchNotes": null,
       "reviewedBy": null,
@@ -289,12 +251,12 @@
       "championId": "lulu",
       "laneId": "SUPPORT",
       "beginnerRating": 4,
-      "difficulty": "Easy-Meduim",
+      "difficulty": "Easy-Medium",
       "playStyle": "Enhancing",
       "recommended": "Yes",
       "why": "Strong shielding and relatively easy to understand",
-      "keystoneRuneId": "conqueror",
-      "runeReason": null,
+      "keystoneRuneId": "summon-aery",
+      "runeReason": "Summon Aery increases the strength of her shields while also providing extra poke damage against enemies.",
       "sourceUrl": null,
       "researchNotes": null,
       "reviewedBy": null,
@@ -305,12 +267,12 @@
       "championId": "darius",
       "laneId": "TOP",
       "beginnerRating": 4,
-      "difficulty": "Easy-Meduim",
+      "difficulty": "Easy-Medium",
       "playStyle": "Fighter/Tank",
       "recommended": "Yes",
       "why": "Powerful fighter with a simple but effective kit",
-      "keystoneRuneId": null,
-      "runeReason": null,
+      "keystoneRuneId": "conqueror",
+      "runeReason": "Conqueror grants stacking damage during combat and eventually provides bonus adaptive force.",
       "sourceUrl": null,
       "researchNotes": null,
       "reviewedBy": null,
@@ -325,24 +287,8 @@
       "playStyle": "Fighter/Tank",
       "recommended": "Yes",
       "why": "Simple abilitie kit, strong durability, and no resource managment",
-      "keystoneRuneId": null,
-      "runeReason": null,
-      "sourceUrl": null,
-      "researchNotes": null,
-      "reviewedBy": null,
-      "lastReviewed": null
-    },
-        {
-      "recommendationId": "REC0026",
-      "championId": "garen",
-      "laneId": "SUPPORT",
-      "beginnerRating": 5,
-      "difficulty": "Easy",
-      "playStyle": "Fighter/Tank",
-      "recommended": "Yes",
-      "why": "Simple abilitie kit, strong durability, and no resource managment",
-      "keystoneRuneId": null,
-      "runeReason": null,
+      "keystoneRuneId": "conqueror",
+      "runeReason": "Conqueror stacks quickly during longer battles and increases his overall damage output",
       "sourceUrl": null,
       "researchNotes": null,
       "reviewedBy": null,
@@ -357,8 +303,8 @@
       "playStyle": "Tank",
       "recommended": "Yes",
       "why": "excellent survivability, and straightforward abilities",
-      "keystoneRuneId": null,
-      "runeReason": null,
+      "keystoneRuneId": "grasp-of-the-undying",
+      "runeReason": "Grasp of the Undying provides bonus damage, healing, and permanent health increases, making him even tankier throughout the game",
       "sourceUrl": null,
       "researchNotes": null,
       "reviewedBy": null,
@@ -373,8 +319,8 @@
       "playStyle": "Fighter",
       "recommended": "Yes",
       "why": "Much sustain through healing, and a simple jungle clear",
-      "keystoneRuneId": null,
-      "runeReason": null,
+      "keystoneRuneId": "lethal-tempo",
+      "runeReason": "Lethal Tempo increases attack speed during fights, allowing Warwick to apply more damage and benefit more often from his passive healing",
       "sourceUrl": null,
       "researchNotes": null,
       "reviewedBy": null,
@@ -389,8 +335,8 @@
       "playStyle": "Tank",
       "recommended": "Yes",
       "why": "Simple abilities, strong crowd control, and his tankiness is forgiving",
-      "keystoneRuneId": null,
-      "runeReason": null,
+      "keystoneRuneId": "aftershock",
+      "runeReason": "Aftershock gives him extra durability when diving into the enemy team, helping him survive while crowd-controlling opponents",
       "sourceUrl": null,
       "researchNotes": null,
       "reviewedBy": null,
@@ -401,12 +347,12 @@
       "championId": "master-yi",
       "laneId": "Jungle",
       "beginnerRating": 4,
-      "difficulty": "Easy-Meduim",
+      "difficulty": "Easy-Medium",
       "playStyle": "Fighter",
       "recommended": "Yes",
       "why": "Straightforward kit which is focused on dealing damage and farming",
-      "keystoneRuneId": null,
-      "runeReason": null,
+      "keystoneRuneId": "lethal-tempo",
+      "runeReason": "Lethal Tempo helps Master Yi attack much faster, increasing his damage significantly",
       "sourceUrl": null,
       "researchNotes": null,
       "reviewedBy": null,
@@ -421,8 +367,8 @@
       "playStyle": "Mage",
       "recommended": "Yes",
       "why": "Simple abilities, reliable damage, and a powerful stun",
-      "keystoneRuneId": null,
-      "runeReason": null,
+      "keystoneRuneId": "electrocute",
+      "runeReason": "Electrocute increases Annie's burst damage, helping her quickly eliminate enemies",
       "sourceUrl": null,
       "researchNotes": null,
       "reviewedBy": null,
@@ -433,12 +379,12 @@
       "championId": "lux",
       "laneId": "MID",
       "beginnerRating": 4,
-      "difficulty": "Easy-Meduim",
+      "difficulty": "Easy-Medium",
       "playStyle": "Mage",
       "recommended": "Yes",
       "why": "Long range abilities that allow to safely damage enemies",
-      "keystoneRuneId": null,
-      "runeReason": null,
+      "keystoneRuneId": "arcane-comet",
+      "runeReason": "Arcane Comet gives Lux additional long-range damage whenever she lands her abilities",
       "sourceUrl": null,
       "researchNotes": null,
       "reviewedBy": null,
@@ -449,12 +395,12 @@
       "championId": "malzahar",
       "laneId": "MID",
       "beginnerRating": 4,
-      "difficulty": "Easy-Meduim",
+      "difficulty": "Easy-Medium",
       "playStyle": "Mage",
       "recommended": "Yes",
       "why": "Easy wave clearing and a targeted lock down ultimate",
-      "keystoneRuneId": null,
-      "runeReason": null,
+      "keystoneRuneId": "summon-aery",
+      "runeReason": "Summon Aery increases Malzahar's poke damage and works well with his damage-over-time abilities",
       "sourceUrl": null,
       "researchNotes": null,
       "reviewedBy": null,
@@ -469,8 +415,8 @@
       "playStyle": "Ranged Fighter",
       "recommended": "Yes",
       "why": "Straightforward abilities, long attack range, and crowd control",
-      "keystoneRuneId": null,
-      "runeReason": null,
+      "keystoneRuneId": "lethal-tempo",
+      "runeReason": "Lethal Tempo lets Ashe fire more arrows, increasing both her damage and crowd control",
       "sourceUrl": null,
       "researchNotes": null,
       "reviewedBy": null,
@@ -485,8 +431,8 @@
       "playStyle": "Ranged Fighter",
       "recommended": "Yes",
       "why": "Simple abilities,strong lane presence, and a powerful ultimate",
-      "keystoneRuneId": null,
-      "runeReason": null,
+      "keystoneRuneId": "press-the-attack",
+      "runeReason": "Press the Attack helps Miss Fortune deal more damage after landing several attacks on the same target",
       "sourceUrl": null,
       "researchNotes": null,
       "reviewedBy": null,
@@ -497,12 +443,12 @@
       "championId": "caitlyn",
       "laneId": "ADC",
       "beginnerRating": 4,
-      "difficulty": "Easy-Meduim",
+      "difficulty": "Easy-Medium",
       "playStyle": "Ranged Fighter",
       "recommended": "Yes",
       "why": "Long attack range, easy farming, good lane control",
-      "keystoneRuneId": null,
-      "runeReason": null,
+      "keystoneRuneId": "fleet-footwork",
+      "runeReason": "Fleet Footwork gives Caitlyn healing and movement speed, helping her stay safe while poking enemies",
       "sourceUrl": null,
       "researchNotes": null,
       "reviewedBy": null,
@@ -542,15 +488,6 @@
     }
   ],
   "items": [
-    {
-      "itemId": "dorans-shield",
-      "name": "Doran's Shield",
-      "description": null,
-      "imageFileName": null,
-      "sourceUrl": null,
-      "researchNotes": "Initial filename/ID example; Jan to confirm item facts and source.",
-      "lastReviewed": null
-    },
     {
       "itemId": "dorans-shield",
       "name": "Doran's Shield",
@@ -680,16 +617,6 @@
   ],
   "builds": [
     {
-      "buildId": "BUILD001",
-      "recommendationId": "REC001",
-      "name": "Beginner Top Build",
-      "description": "Example build record; intern to research and populate the actual build.",
-      "isPrimary": "Yes",
-      "sourceUrl": null,
-      "researchNotes": "Initial structural example only.",
-      "lastReviewed": null
-    },
-    {
       "buildId": "BUILD002",
       "recommendationId": "REC006",
       "name": "Garen Top Build",
@@ -722,158 +649,151 @@
   ],
   "buildItems": [
     {
-      "buildId": "BUILD001",
+      "buildId": "BUILD002",
       "itemId": "dorans-shield",
       "stage": "Starting",
       "sortOrder": 1,
-      "reason": "Jan to research and explain why this item belongs in the build."
-    },
-    {
-      "buildId": "BUILD002",
-      "itemId": "dorans-shield",
-      "stage": "",
-      "sortOrder": 1,
-      "reason": null
+      "reason": "Makes laning safer against ranged champions and difficult matchups"
     },
     {
       "buildId": "BUILD002",
       "itemId": "stridebreaker",
-      "stage": "",
+      "stage": "Main",
       "sortOrder": 2,
-      "reason": null
+      "reason": "The slow helps Garen stay in range of opponents, so he can attack the enemy before they are abeal to flee"
     },
     {
       "buildId": "BUILD002",
       "itemId": "beserkers-greaves",
-      "stage": "",
+      "stage": "Main",
       "sortOrder": 3,
-      "reason": null
+      "reason": "More attack speed increases the number of spins from Garen's E ability, resulting in higher damage"
     },
     {
       "buildId": "BUILD002",
       "itemId": "phantom-dancer",
-      "stage": "",
+      "stage": "Main",
       "sortOrder": 4,
-      "reason": null
+      "reason": "Provides extra mobility and damage while making it easier to stick to targets"
     },
     {
       "buildId": "BUILD002",
       "itemId": "dead-mans-plate",
-      "stage": "",
+      "stage": "Situational",
       "sortOrder": 5,
-      "reason": null
+      "reason": "Makes Garen tankier and helps him engage fights more effectively"
     },
     {
       "buildId": "BUILD002",
       "itemId": "force-of-nature",
-      "stage": "",
+      "stage": "Situational",
       "sortOrder": 6,
-      "reason": null
+      "reason": "Excellent against teams with multiple magic damage champions"
     },
     {
       "buildId": "BUILD002",
       "itemId": "steraks-gage",
-      "stage": "",
+      "stage": "Situational",
       "sortOrder": 7,
-      "reason": null
+      "reason": "Improves survivability during team fights and helps Garen stay alive while diving into enemies"
     },
     {
       "buildId": "BUILD003",
       "itemId": "scorchclaw-pup",
-      "stage": "",
+      "stage": "Starting",
       "sortOrder": 1,
-      "reason": null
+      "reason": "Improves jungle clear speed and adds damage during fights"
     },
     {
       "buildId": "BUILD003",
       "itemId": "stridebreaker",
-      "stage": "",
+      "stage": "Main",
       "sortOrder": 2,
-      "reason": null
+      "reason": "Helps Warwick stay on targets and makes it easier to land his fear and ultimate"
     },
     {
       "buildId": "BUILD003",
       "itemId": "plated-steelcaps",
-      "stage": "",
+      "stage": "Main",
       "sortOrder": 3,
-      "reason": null
+      "reason": "Excellent against AD-heavy teams and marksmen"
     },
     {
       "buildId": "BUILD003",
       "itemId": "spirit-visage",
-      "stage": "",
+      "stage": "Main",
       "sortOrder": 4,
-      "reason": null
+      "reason": "Boosts Warwick's already powerful self-healing"
     },
     {
       "buildId": "BUILD003",
       "itemId": "thornmail",
-      "stage": "",
+      "stage": "Situational",
       "sortOrder": 5,
-      "reason": null
+      "reason": "Strong against champions with significant healing"
     },
     {
       "buildId": "BUILD003",
       "itemId": "steraks-gage",
-      "stage": "",
+      "stage": "Situational",
       "sortOrder": 6,
-      "reason": null
+      "reason": "Keeps Warwick alive when diving into team fights"
     },
     {
       "buildId": "BUILD003",
       "itemId": "guardian-angel",
-      "stage": "",
+      "stage": "Situational",
       "sortOrder": 7,
-      "reason": null
+      "reason": "Allows aggressive engages without immediately losing team fight impact"
     },
     {
       "buildId": "BUILD004",
       "itemId": "dorans-blade",
-      "stage": "",
+      "stage": "Starting",
       "sortOrder": 1,
-      "reason": null
+      "reason": "Provides stronger early-game trading power and additional sustain through basic attacks"
     },
     {
       "buildId": "BUILD004",
       "itemId": "blade-of-the-ruined-king",
-      "stage": "",
+      "stage": "Main",
       "sortOrder": 2,
-      "reason": null
+      "reason": "Excellent for dueling and synergizes perfectly with Warwick's sustained combat style"
     },
     {
       "buildId": "BUILD004",
       "itemId": "plated-steelcaps",
-      "stage": "",
+      "stage": "Main",
       "sortOrder": 3,
-      "reason": null
+      "reason": "Strong against AD-heavy teams and many top lane opponents"
     },
     {
       "buildId": "BUILD004",
       "itemId": "stridebreaker",
-      "stage": "",
+      "stage": "Main",
       "sortOrder": 4,
-      "reason": null
+      "reason": "Helps Warwick stay on targets and makes it easier to land his fear and ultimate"
     },
     {
       "buildId": "BUILD004",
       "itemId": "spirit-visage",
-      "stage": "",
+      "stage": "Situational",
       "sortOrder": 5,
-      "reason": null
+      "reason": "Amplifies all of Warwick's healing effects"
     },
     {
       "buildId": "BUILD004",
       "itemId": "thornmail",
-      "stage": "",
+      "stage": "Situational",
       "sortOrder": 6,
-      "reason": null
+      "reason": "Useful against champions with significant healing"
     },
     {
       "buildId": "BUILD004",
       "itemId": "dead-mans-plate",
-      "stage": "",
+      "stage": "Situational",
       "sortOrder": 7,
-      "reason": null
+      "reason": "Helps Warwick engage and stick to enemy champions"
     }
   ],
   "runes": [
@@ -941,7 +861,7 @@
       "runeId": "hail-of-blades",
       "name": "Hail of Blades",
       "path": "Domination",
-      "description": "Provides a rapid burst of attack speed when combat begins.",
+      "description": "Provides a rapid burst of attack speed when you hit a champion three times at the start of combat",
       "sortOrder": 3,
       "imageFileName": null,
       "sourceUrl": null,
