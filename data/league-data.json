@@ -313,7 +313,7 @@
     {
       "recommendationId": "REC008",
       "championId": "warwick",
-      "laneId": "JUNGLE",
+      "laneId": "Jungle",
       "beginnerRating": 5,
       "difficulty": "Easy",
       "playStyle": "Fighter",
@@ -329,7 +329,7 @@
     {
       "recommendationId": "REC009",
       "championId": "amumu",
-      "laneId": "JUNGLE",
+      "laneId": "Jungle",
       "beginnerRating": 5,
       "difficulty": "Easy",
       "playStyle": "Tank",
@@ -345,7 +345,7 @@
     {
       "recommendationId": "REC010",
       "championId": "master-yi",
-      "laneId": "JUNGLE",
+      "laneId": "Jungle",
       "beginnerRating": 4,
       "difficulty": "Easy-Medium",
       "playStyle": "Fighter",
@@ -613,6 +613,384 @@
       "sourceUrl": null,
       "researchNotes": null,
       "lastReviewed": null
+    },
+    {
+      "itemId": "world-atlas",
+      "name": "World Atlas",
+      "description": "Support starter item that generates gold by helping allies and interacting with enemies",
+      "imageFileName": null,
+      "sourceUrl": null,
+      "researchNotes": null,
+      "lastReviewed": null
+    },
+    {
+      "itemId": "dream-maker",
+      "name": "Dream Maker",
+      "description": "Enhances your ability to protect teammates by reducing incoming damage and increasing allied damage output",
+      "imageFileName": null,
+      "sourceUrl": null,
+      "researchNotes": null,
+      "lastReviewed": null
+    },
+    {
+      "itemId": "moonstone-renewer",
+      "name": "Moonstone Renewer",
+      "description": "Strengthens healing and shielding during longer fights",
+      "imageFileName": null,
+      "sourceUrl": null,
+      "researchNotes": null,
+      "lastReviewed": null
+    },
+    {
+      "itemId": "redemption",
+      "name": "Redemption",
+      "description": "Allows you to heal allies in a large area, even when you are far away",
+      "imageFileName": null,
+      "sourceUrl": null,
+      "researchNotes": null,
+      "lastReviewed": null
+    },
+    {
+      "itemId": "ionian-boots-of-lucidity",
+      "name": "Ionian Boots of Lucidity",
+      "description": "Grants ability haste, movement speed and, spell haste",
+      "imageFileName": null,
+      "sourceUrl": null,
+      "researchNotes": null,
+      "lastReviewed": null
+    },
+    {
+      "itemId": "staff-of-flowing-water",
+      "name": "Staff of Flowing Water",
+      "description": "Grants offensive bonuses to allies when you heal or shield them",
+      "imageFileName": null,
+      "sourceUrl": null,
+      "researchNotes": null,
+      "lastReviewed": null
+    },
+    {
+      "itemId": "celestial-opposition",
+      "name": "Celestial Opposition",
+      "description": "Helps support champions survive after starting a fight",
+      "imageFileName": null,
+      "sourceUrl": null,
+      "researchNotes": null,
+      "lastReviewed": null
+    },
+    {
+      "itemId": "locket-of-the-iron-solari",
+      "name": "Locket of the Iron Solari",
+      "description": "Provides a protective shield to nearby teammates",
+      "imageFileName": null,
+      "sourceUrl": null,
+      "researchNotes": null,
+      "lastReviewed": null
+    },
+    {
+      "itemId": "knights-vow",
+      "name": "Knight's Vow",
+      "description": "Links you to an ally and helps absorb some of the danger directed at them",
+      "imageFileName": null,
+      "sourceUrl": null,
+      "researchNotes": null,
+      "lastReviewed": null
+    },
+    {
+      "itemId": "zekes-convergence",
+      "name": "Zeke's Convergence",
+      "description": "Rewards successful engages by increasing damage against affected enemies",
+      "imageFileName": null,
+      "sourceUrl": null,
+      "researchNotes": null,
+      "lastReviewed": null
+    },
+    {
+      "itemId": "ardent-censer",
+      "name": "Ardent Censer",
+      "description": "Gives attack-based champions extra combat power after receiving your heal or shield",
+      "imageFileName": null,
+      "sourceUrl": null,
+      "researchNotes": null,
+      "lastReviewed": null
+    },
+    {
+      "itemId": "sunfire-aegis",
+      "name": "Sunfire Aegis",
+      "description": "Deals continuous damage to nearby enemies while increasing durability",
+      "imageFileName": null,
+      "sourceUrl": null,
+      "researchNotes": null,
+      "lastReviewed": null
+    },
+    {
+      "itemId": "iceborn-gauntlet",
+      "name": "Iceborn Gauntlet",
+      "description": "Creates slowing zones after attacks, making it easier to stick to enemies",
+      "imageFileName": null,
+      "sourceUrl": null,
+      "researchNotes": null,
+      "lastReviewed": null
+    },
+    {
+      "itemId": "frozen-heart",
+      "name": "Frozen Heart",
+      "description": "Reduces incoming attack damage and weakens enemy attack speed",
+      "imageFileName": null,
+      "sourceUrl": null,
+      "researchNotes": null,
+      "lastReviewed": null
+    },
+    {
+      "itemId": "jaksho-the-protean",
+      "name": "Jak'Sho, The Protean",
+      "description": "Becomes stronger during extended fights by increasing defenses",
+      "imageFileName": null,
+      "sourceUrl": null,
+      "researchNotes": null,
+      "lastReviewed": null
+    },
+    {
+      "itemId": "liandrys-torment",
+      "name": "Liandry's Torment",
+      "description": "Deals increased damage during extended fights, especially against tankier enemies",
+      "imageFileName": null,
+      "sourceUrl": null,
+      "researchNotes": null,
+      "lastReviewed": null
+    },
+    {
+      "itemId": "abyssal-mask",
+      "name": "Abyssal Mask",
+      "description": "Increases your durability while helping your team deal more magic damage",
+      "imageFileName": null,
+      "sourceUrl": null,
+      "researchNotes": null,
+      "lastReviewed": null
+    },
+    {
+      "itemId": "mosstomper-seedling",
+      "name": "Mosstomper Seedling",
+      "description": "Jungle companion focused on durability and survivability",
+      "imageFileName": null,
+      "sourceUrl": null,
+      "researchNotes": null,
+      "lastReviewed": null
+    },
+    {
+      "itemId": "guinsoos-rageblade",
+      "name": "Guinsoo's Rageblade",
+      "description": "Converts critical strike investments into powerful on-hit damage",
+      "imageFileName": null,
+      "sourceUrl": null,
+      "researchNotes": null,
+      "lastReviewed": null
+    },
+    {
+      "itemId": "wits-end",
+      "name": "Wit's End",
+      "description": "Provides attack speed, magic resistance, and additional on-hit damage",
+      "imageFileName": null,
+      "sourceUrl": null,
+      "researchNotes": null,
+      "lastReviewed": null
+    },
+    {
+      "itemId": "deaths-dance",
+      "name": "Death's Dance",
+      "description": "Helps survive burst damage by delaying part of the damage received",
+      "imageFileName": null,
+      "sourceUrl": null,
+      "researchNotes": null,
+      "lastReviewed": null
+    },
+    {
+      "itemId": "dorans-ring",
+      "name": "Doran's Ring",
+      "description": "Grants mana and ability power",
+      "imageFileName": null,
+      "sourceUrl": null,
+      "researchNotes": null,
+      "lastReviewed": null
+    },
+    {
+      "itemId": "malignance",
+      "name": "Malignance",
+      "description": "Improves ultimate-focused champions by increasing damage after using their ultimate",
+      "imageFileName": null,
+      "sourceUrl": null,
+      "researchNotes": null,
+      "lastReviewed": null
+    },
+    {
+      "itemId": "shadowflame",
+      "name": "Shadowflame",
+      "description": "Boosts burst magic damage, especially against vulnerable targets",
+      "imageFileName": null,
+      "sourceUrl": null,
+      "researchNotes": null,
+      "lastReviewed": null
+    },
+    {
+      "itemId": "rabadons-deathcap",
+      "name": "Rabadon's Deathcap",
+      "description": "Massively increases Ability Power",
+      "imageFileName": null,
+      "sourceUrl": null,
+      "researchNotes": null,
+      "lastReviewed": null
+    },
+    {
+      "itemId": "zhonyas-hourglass",
+      "name": "Zhonya's Hourglass",
+      "description": "Allows you to become temporarily untargetable and invulnerable",
+      "imageFileName": null,
+      "sourceUrl": null,
+      "researchNotes": null,
+      "lastReviewed": null
+    },
+    {
+      "itemId": "sorcerers-shoes",
+      "name": "Sorcerer's Shoes",
+      "description": "Increase magic damage by reducing enemy magic defenses",
+      "imageFileName": null,
+      "sourceUrl": null,
+      "researchNotes": null,
+      "lastReviewed": null
+    },
+    {
+      "itemId": "void-staff",
+      "name": "Void Staff",
+      "description": "Helps abilities damage enemies with high magic resistance",
+      "imageFileName": null,
+      "sourceUrl": null,
+      "researchNotes": null,
+      "lastReviewed": null
+    },
+    {
+      "itemId": "ludens-companion",
+      "name": "Luden's Companion",
+      "description": "Adds bonus burst damage and improves wave clear",
+      "imageFileName": null,
+      "sourceUrl": null,
+      "researchNotes": null,
+      "lastReviewed": null
+    },
+    {
+      "itemId": "stormsurge",
+      "name": "Stormsurge",
+      "description": "Rewards successful burst combos with additional damage",
+      "imageFileName": null,
+      "sourceUrl": null,
+      "researchNotes": null,
+      "lastReviewed": null
+    },
+    {
+      "itemId": "blackfire-torch",
+      "name": "Blackfire Torch",
+      "description": "Enhances damage-over-time effects and sustained magic damage",
+      "imageFileName": null,
+      "sourceUrl": null,
+      "researchNotes": null,
+      "lastReviewed": null
+    },
+    {
+      "itemId": "rylais-crystal-scepter",
+      "name": "Rylai's Crystal Scepter",
+      "description": "Causes damaging abilities to slow enemies",
+      "imageFileName": null,
+      "sourceUrl": null,
+      "researchNotes": null,
+      "lastReviewed": null
+    },
+    {
+      "itemId": "kraken-slayer",
+      "name": "Kraken Slayer",
+      "description": "Rewards repeated attacks with additional damage",
+      "imageFileName": null,
+      "sourceUrl": null,
+      "researchNotes": null,
+      "lastReviewed": null
+    },
+    {
+      "itemId": "infinity-edge",
+      "name": "Infinity Edge",
+      "description": "Greatly increases the damage dealt by critical strikes",
+      "imageFileName": null,
+      "sourceUrl": null,
+      "researchNotes": null,
+      "lastReviewed": null
+    },
+    {
+      "itemId": "lord-dominiks-regards",
+      "name": "Lord Dominik's Regards",
+      "description": "Helps marksmen deal more damage to heavily armored opponents",
+      "imageFileName": null,
+      "sourceUrl": null,
+      "researchNotes": null,
+      "lastReviewed": null
+    },
+    {
+      "itemId": "bloodthirster",
+      "name": "Bloodthirster",
+      "description": "Provides lifesteal and a strong source of sustain",
+      "imageFileName": null,
+      "sourceUrl": null,
+      "researchNotes": null,
+      "lastReviewed": null
+    },
+    {
+      "itemId": "youmuus-ghostblade",
+      "name": "Youmuu's Ghostblade",
+      "description": "Grants mobility and lethality for aggressive plays",
+      "imageFileName": null,
+      "sourceUrl": null,
+      "researchNotes": null,
+      "lastReviewed": null
+    },
+    {
+      "itemId": "the-collector",
+      "name": "The Collector",
+      "description": "Helps finish low-health enemies while increasing damage output",
+      "imageFileName": null,
+      "sourceUrl": null,
+      "researchNotes": null,
+      "lastReviewed": null
+    },
+    {
+      "itemId": "seryldas-grudge",
+      "name": "Serylda's Grudge",
+      "description": "Provides armor penetration and utility through slowing effects",
+      "imageFileName": null,
+      "sourceUrl": null,
+      "researchNotes": null,
+      "lastReviewed": null
+    },
+    {
+      "itemId": "rapid-firecannon",
+      "name": "Rapid Firecannon",
+      "description": "Extends the range of empowered basic attacks",
+      "imageFileName": null,
+      "sourceUrl": null,
+      "researchNotes": null,
+      "lastReviewed": null
+    },
+    {
+      "itemId": "yun-tal-wildarrows",
+      "name": "Yun Tal Wildarrows",
+      "description": "Critical strike focused item that increases overall damage output for auto-attack-based champions",
+      "imageFileName": null,
+      "sourceUrl": null,
+      "researchNotes": null,
+      "lastReviewed": null
+    },
+    {
+      "itemId": "mikaels-blessing",
+      "name": "Mikael's Blessing",
+      "description": "Removes crowd control from an ally",
+      "imageFileName": null,
+      "sourceUrl": null,
+      "researchNotes": null,
+      "lastReviewed": null
     }
   ],
   "builds": [
@@ -640,6 +1018,136 @@
       "buildId": "BUILD004",
       "recommendationId": "REC018",
       "name": "Warwick Top Build",
+      "description": null,
+      "isPrimary": "",
+      "sourceUrl": null,
+      "researchNotes": null,
+      "lastReviewed": null
+    },
+    {
+      "buildId": "BUILD005",
+      "recommendationId": "REC002",
+      "name": "Soraka Support Build",
+      "description": null,
+      "isPrimary": "",
+      "sourceUrl": null,
+      "researchNotes": null,
+      "lastReviewed": null
+    },
+    {
+      "buildId": "BUILD006",
+      "recommendationId": "REC003",
+      "name": "Leona Support Build",
+      "description": null,
+      "isPrimary": "",
+      "sourceUrl": null,
+      "researchNotes": null,
+      "lastReviewed": null
+    },
+    {
+      "buildId": "BUILD007",
+      "recommendationId": "REC004",
+      "name": "Lulu Support Build",
+      "description": null,
+      "isPrimary": "",
+      "sourceUrl": null,
+      "researchNotes": null,
+      "lastReviewed": null
+    },
+    {
+      "buildId": "BUILD008",
+      "recommendationId": "REC005",
+      "name": "Daruis Top Build",
+      "description": null,
+      "isPrimary": "",
+      "sourceUrl": null,
+      "researchNotes": null,
+      "lastReviewed": null
+    },
+    {
+      "buildId": "BUILD009",
+      "recommendationId": "REC007",
+      "name": "Malphite Top Build",
+      "description": null,
+      "isPrimary": "",
+      "sourceUrl": null,
+      "researchNotes": null,
+      "lastReviewed": null
+    },
+    {
+      "buildId": "BUILD010",
+      "recommendationId": "REC009",
+      "name": "Amumu Jungle Build",
+      "description": null,
+      "isPrimary": "",
+      "sourceUrl": null,
+      "researchNotes": null,
+      "lastReviewed": null
+    },
+    {
+      "buildId": "BUILD011",
+      "recommendationId": "REC010",
+      "name": "Master Yi Jungle Build",
+      "description": null,
+      "isPrimary": "",
+      "sourceUrl": null,
+      "researchNotes": null,
+      "lastReviewed": null
+    },
+    {
+      "buildId": "BUILD013",
+      "recommendationId": "REC011",
+      "name": "Annie Mid Build",
+      "description": null,
+      "isPrimary": "",
+      "sourceUrl": null,
+      "researchNotes": null,
+      "lastReviewed": null
+    },
+    {
+      "buildId": "BUILD014",
+      "recommendationId": "REC012",
+      "name": "Lux Mid Build",
+      "description": null,
+      "isPrimary": "",
+      "sourceUrl": null,
+      "researchNotes": null,
+      "lastReviewed": null
+    },
+    {
+      "buildId": "BUILD015",
+      "recommendationId": "REC013",
+      "name": "Malzahar Mid Build",
+      "description": null,
+      "isPrimary": "",
+      "sourceUrl": null,
+      "researchNotes": null,
+      "lastReviewed": null
+    },
+    {
+      "buildId": "BUILD016",
+      "recommendationId": "REC014",
+      "name": "Ashe ADC/Bot Build",
+      "description": null,
+      "isPrimary": "",
+      "sourceUrl": null,
+      "researchNotes": null,
+      "lastReviewed": null
+    },
+    {
+      "buildId": "BUILD017",
+      "recommendationId": "REC015",
+      "name": "Miss Fortune ADC/Bot Build",
+      "description": null,
+      "isPrimary": "",
+      "sourceUrl": null,
+      "researchNotes": null,
+      "lastReviewed": null
+    },
+    {
+      "buildId": "BUILD018",
+      "recommendationId": "REC016",
+      "name": "Caitlyn ADC/Bot Build",
       "description": null,
       "isPrimary": "",
       "sourceUrl": null,
@@ -794,6 +1302,664 @@
       "stage": "Situational",
       "sortOrder": 7,
       "reason": "Helps Warwick engage and stick to enemy champions"
+    },
+    {
+      "buildId": "BUILD005",
+      "itemId": "world-atlas",
+      "stage": "Starting",
+      "sortOrder": 1,
+      "reason": "Generates gold through support quests and upgrades into stronger support items"
+    },
+    {
+      "buildId": "BUILD005",
+      "itemId": "dream-maker",
+      "stage": "Main",
+      "sortOrder": 2,
+      "reason": "Enhances shielding and healing for allies"
+    },
+    {
+      "buildId": "BUILD005",
+      "itemId": "ionian-boots-of-lucidity",
+      "stage": "Main",
+      "sortOrder": 3,
+      "reason": "More ability haste means more heals and silences"
+    },
+    {
+      "buildId": "BUILD005",
+      "itemId": "moonstone-renewer",
+      "stage": "Main",
+      "sortOrder": 4,
+      "reason": "Increases healing during extended team fights"
+    },
+    {
+      "buildId": "BUILD005",
+      "itemId": "redemption",
+      "stage": "Situational",
+      "sortOrder": 5,
+      "reason": "Provides a large area heal to help teammates from a distance"
+    },
+    {
+      "buildId": "BUILD005",
+      "itemId": "staff-of-flowing-water",
+      "stage": "Situational",
+      "sortOrder": 6,
+      "reason": "Grants Ability Power and Movement Speed to allies you heal"
+    },
+    {
+      "buildId": "BUILD005",
+      "itemId": "mikaels-blessing",
+      "stage": "Situational",
+      "sortOrder": 7,
+      "reason": "Removes crowd control from an ally"
+    },
+    {
+      "buildId": "BUILD007",
+      "itemId": "world-atlas",
+      "stage": "Starting",
+      "sortOrder": 1,
+      "reason": "Generates gold through support quests and upgrades into stronger support items"
+    },
+    {
+      "buildId": "BUILD007",
+      "itemId": "dream-maker",
+      "stage": "Main",
+      "sortOrder": 2,
+      "reason": "Improves shielding and protecting allies"
+    },
+    {
+      "buildId": "BUILD007",
+      "itemId": "ardent-censer",
+      "stage": "Main",
+      "sortOrder": 3,
+      "reason": "Gives attack speed and damage benefits to carries"
+    },
+    {
+      "buildId": "BUILD007",
+      "itemId": "ionian-boots-of-lucidity",
+      "stage": "Main",
+      "sortOrder": 4,
+      "reason": "Grants ability haste, movement speed and, spell haste"
+    },
+    {
+      "buildId": "BUILD007",
+      "itemId": "moonstone-renewer",
+      "stage": "Situational",
+      "sortOrder": 5,
+      "reason": "Strengthens repeated shields and heals"
+    },
+    {
+      "buildId": "BUILD007",
+      "itemId": "staff-of-flowing-water",
+      "stage": "Situational",
+      "sortOrder": 6,
+      "reason": "Helps AP teammates deal more damage"
+    },
+    {
+      "buildId": "BUILD007",
+      "itemId": "mikaels-blessing",
+      "stage": "Situational",
+      "sortOrder": 7,
+      "reason": "Cleanses crowd control"
+    },
+    {
+      "buildId": "BUILD006",
+      "itemId": "world-atlas",
+      "stage": "Starting",
+      "sortOrder": 1,
+      "reason": "Generates gold through support quests and upgrades into stronger support items"
+    },
+    {
+      "buildId": "BUILD006",
+      "itemId": "celestial-opposition",
+      "stage": "Main",
+      "sortOrder": 2,
+      "reason": "Reduces damage when engaging enemies"
+    },
+    {
+      "buildId": "BUILD006",
+      "itemId": "plated-steelcaps",
+      "stage": "Main",
+      "sortOrder": 3,
+      "reason": "Good against AD damage"
+    },
+    {
+      "buildId": "BUILD006",
+      "itemId": "locket-of-the-iron-solari",
+      "stage": "Main",
+      "sortOrder": 4,
+      "reason": "Shields nearby teammates during fights"
+    },
+    {
+      "buildId": "BUILD006",
+      "itemId": "knights-vow",
+      "stage": "Situational",
+      "sortOrder": 5,
+      "reason": "Protects the team's primary carry"
+    },
+    {
+      "buildId": "BUILD006",
+      "itemId": "zekes-convergence",
+      "stage": "Situational",
+      "sortOrder": 6,
+      "reason": "Rewards Leona for engaging aggressively"
+    },
+    {
+      "buildId": "BUILD006",
+      "itemId": "thornmail",
+      "stage": "Situational",
+      "sortOrder": 7,
+      "reason": "Counters healing champions"
+    },
+    {
+      "buildId": "BUILD008",
+      "itemId": "dorans-blade",
+      "stage": "Starting",
+      "sortOrder": 1,
+      "reason": "Early health and damage"
+    },
+    {
+      "buildId": "BUILD008",
+      "itemId": "stridebreaker",
+      "stage": "Main",
+      "sortOrder": 2,
+      "reason": "Helps Darius stick to enemies and land combos"
+    },
+    {
+      "buildId": "BUILD008",
+      "itemId": "plated-steelcaps",
+      "stage": "Main",
+      "sortOrder": 3,
+      "reason": "Good against AD damage"
+    },
+    {
+      "buildId": "BUILD008",
+      "itemId": "dead-mans-plate",
+      "stage": "Main",
+      "sortOrder": 4,
+      "reason": "Movement speed for engaging fights"
+    },
+    {
+      "buildId": "BUILD008",
+      "itemId": "steraks-gage",
+      "stage": "Situational",
+      "sortOrder": 5,
+      "reason": "Survivability when diving into team fights"
+    },
+    {
+      "buildId": "BUILD008",
+      "itemId": "force-of-nature",
+      "stage": "Situational",
+      "sortOrder": 6,
+      "reason": "Strong protection against magic damage"
+    },
+    {
+      "buildId": "BUILD008",
+      "itemId": "thornmail",
+      "stage": "Situational",
+      "sortOrder": 7,
+      "reason": "Counters healing champions"
+    },
+    {
+      "buildId": "BUILD009",
+      "itemId": "dorans-shield",
+      "stage": "Starting",
+      "sortOrder": 1,
+      "reason": "Excellent protection in difficult matchups"
+    },
+    {
+      "buildId": "BUILD009",
+      "itemId": "sunfire-aegis",
+      "stage": "Main",
+      "sortOrder": 2,
+      "reason": "Constant area damage during fights"
+    },
+    {
+      "buildId": "BUILD009",
+      "itemId": "plated-steelcaps",
+      "stage": "Main",
+      "sortOrder": 3,
+      "reason": "Strong versus AD teams"
+    },
+    {
+      "buildId": "BUILD009",
+      "itemId": "iceborn-gauntlet",
+      "stage": "Main",
+      "sortOrder": 4,
+      "reason": "Helps Malphite keep enemies close"
+    },
+    {
+      "buildId": "BUILD009",
+      "itemId": "thornmail",
+      "stage": "Situational",
+      "sortOrder": 5,
+      "reason": "Punishes healing and physical attackers"
+    },
+    {
+      "buildId": "BUILD009",
+      "itemId": "frozen-heart",
+      "stage": "Situational",
+      "sortOrder": 6,
+      "reason": "Great against attack-speed champions"
+    },
+    {
+      "buildId": "BUILD009",
+      "itemId": "jaksho-the-protean",
+      "stage": "Situational",
+      "sortOrder": 7,
+      "reason": "Powerful tank scaling"
+    },
+    {
+      "buildId": "BUILD010",
+      "itemId": "scorchclaw-pup",
+      "stage": "Starting",
+      "sortOrder": 1,
+      "reason": "Improves jungle clear and ganking"
+    },
+    {
+      "buildId": "BUILD010",
+      "itemId": "liandrys-torment",
+      "stage": "Main",
+      "sortOrder": 2,
+      "reason": "Excellent damage during extended fights"
+    },
+    {
+      "buildId": "BUILD010",
+      "itemId": "plated-steelcaps",
+      "stage": "Main",
+      "sortOrder": 3,
+      "reason": "Strong versus AD teams"
+    },
+    {
+      "buildId": "BUILD010",
+      "itemId": "sunfire-aegis",
+      "stage": "Main",
+      "sortOrder": 4,
+      "reason": "Helps clear camps and deal area damage"
+    },
+    {
+      "buildId": "BUILD010",
+      "itemId": "abyssal-mask",
+      "stage": "Situational",
+      "sortOrder": 5,
+      "reason": "Increases allied magic damage"
+    },
+    {
+      "buildId": "BUILD010",
+      "itemId": "jaksho-the-protean",
+      "stage": "Situational",
+      "sortOrder": 6,
+      "reason": "Makes Amumu extremely durable"
+    },
+    {
+      "buildId": "BUILD010",
+      "itemId": "frozen-heart",
+      "stage": "Situational",
+      "sortOrder": 7,
+      "reason": "Against attack-speed champions"
+    },
+    {
+      "buildId": "BUILD011",
+      "itemId": "mosstomper-seedling",
+      "stage": "Starting",
+      "sortOrder": 1,
+      "reason": "Extra durability while diving into fights"
+    },
+    {
+      "buildId": "BUILD011",
+      "itemId": "blade-of-the-ruined-king",
+      "stage": "Main",
+      "sortOrder": 2,
+      "reason": "Excellent dueling and tank shredding"
+    },
+    {
+      "buildId": "BUILD011",
+      "itemId": "beserkers-greaves",
+      "stage": "Main",
+      "sortOrder": 3,
+      "reason": "More attack speed"
+    },
+    {
+      "buildId": "BUILD011",
+      "itemId": "guinsoos-rageblade",
+      "stage": "Main",
+      "sortOrder": 4,
+      "reason": "Synergizes perfectly with Master Yi's passive"
+    },
+    {
+      "buildId": "BUILD011",
+      "itemId": "wits-end",
+      "stage": "Situational",
+      "sortOrder": 5,
+      "reason": "Attack speed and magic resistance"
+    },
+    {
+      "buildId": "BUILD011",
+      "itemId": "deaths-dance",
+      "stage": "Situational",
+      "sortOrder": 6,
+      "reason": "Helps survive bursts of damage"
+    },
+    {
+      "buildId": "BUILD011",
+      "itemId": "guardian-angel",
+      "stage": "Situational",
+      "sortOrder": 7,
+      "reason": "Second life in important fights"
+    },
+    {
+      "buildId": "BUILD012",
+      "itemId": "dorans-ring",
+      "stage": "Starting",
+      "sortOrder": 1,
+      "reason": "Grants mana and ability power"
+    },
+    {
+      "buildId": "BUILD012",
+      "itemId": "malignance",
+      "stage": "Main",
+      "sortOrder": 2,
+      "reason": "Synergizes well with Annie's ultimate"
+    },
+    {
+      "buildId": "BUILD012",
+      "itemId": "sorcerers-shoes",
+      "stage": "Main",
+      "sortOrder": 3,
+      "reason": "Increase magic damage by reducing enemy magic defenses"
+    },
+    {
+      "buildId": "BUILD012",
+      "itemId": "shadowflame",
+      "stage": "Main",
+      "sortOrder": 4,
+      "reason": "Improves burst damage"
+    },
+    {
+      "buildId": "BUILD012",
+      "itemId": "rabadons-deathcap",
+      "stage": "Situational",
+      "sortOrder": 5,
+      "reason": "Massive AP increase"
+    },
+    {
+      "buildId": "BUILD012",
+      "itemId": "zhonyas-hourglass",
+      "stage": "Situational",
+      "sortOrder": 6,
+      "reason": "Survivability after engaging"
+    },
+    {
+      "buildId": "BUILD012",
+      "itemId": "void-staff",
+      "stage": "Situational",
+      "sortOrder": 7,
+      "reason": "Helps against magic resistance"
+    },
+    {
+      "buildId": "BUILD013",
+      "itemId": "dorans-ring",
+      "stage": "Starting",
+      "sortOrder": 1,
+      "reason": "Grants mana and ability power"
+    },
+    {
+      "buildId": "BUILD013",
+      "itemId": "ludens-companion",
+      "stage": "Main",
+      "sortOrder": 2,
+      "reason": "Burst damage and wave clear"
+    },
+    {
+      "buildId": "BUILD013",
+      "itemId": "sorcerers-shoes",
+      "stage": "Main",
+      "sortOrder": 3,
+      "reason": "Increase magic damage by reducing enemy magic defenses"
+    },
+    {
+      "buildId": "BUILD013",
+      "itemId": "stormsurge",
+      "stage": "Main",
+      "sortOrder": 4,
+      "reason": "Adds extra burst potential"
+    },
+    {
+      "buildId": "BUILD013",
+      "itemId": "shadowflame",
+      "stage": "Situational",
+      "sortOrder": 5,
+      "reason": "Enhances magic damage"
+    },
+    {
+      "buildId": "BUILD013",
+      "itemId": "rabadons-deathcap",
+      "stage": "Situational",
+      "sortOrder": 6,
+      "reason": "Huge AP increase"
+    },
+    {
+      "buildId": "BUILD013",
+      "itemId": "zhonyas-hourglass",
+      "stage": "Situational",
+      "sortOrder": 7,
+      "reason": "Survivability after engaging"
+    },
+    {
+      "buildId": "BUILD014",
+      "itemId": "dorans-ring",
+      "stage": "Starting",
+      "sortOrder": 1,
+      "reason": "Grants mana and ability power"
+    },
+    {
+      "buildId": "BUILD014",
+      "itemId": "blackfire-torch",
+      "stage": "Main",
+      "sortOrder": 2,
+      "reason": "Excellent synergy with damage-over-time abilities"
+    },
+    {
+      "buildId": "BUILD014",
+      "itemId": "sorcerers-shoes",
+      "stage": "Main",
+      "sortOrder": 3,
+      "reason": "Increase magic damage by reducing enemy magic defense"
+    },
+    {
+      "buildId": "BUILD014",
+      "itemId": "liandrys-torment",
+      "stage": "Main",
+      "sortOrder": 4,
+      "reason": "Consistent damage against tanks"
+    },
+    {
+      "buildId": "BUILD014",
+      "itemId": "rylais-crystal-scepter",
+      "stage": "Situational",
+      "sortOrder": 5,
+      "reason": "Slows enemies continually"
+    },
+    {
+      "buildId": "BUILD014",
+      "itemId": "rabadons-deathcap",
+      "stage": "Situational",
+      "sortOrder": 6,
+      "reason": "Major AP spike"
+    },
+    {
+      "buildId": "BUILD014",
+      "itemId": "void-staff",
+      "stage": "Situational",
+      "sortOrder": 7,
+      "reason": "Helps against magic resistance"
+    },
+    {
+      "buildId": "BUILD015",
+      "itemId": "dorans-blade",
+      "stage": "Starting",
+      "sortOrder": 1,
+      "reason": "Early health and damage"
+    },
+    {
+      "buildId": "BUILD016",
+      "itemId": "kraken-slayer",
+      "stage": "Main",
+      "sortOrder": 2,
+      "reason": "Strong sustained damage"
+    },
+    {
+      "buildId": "BUILD016",
+      "itemId": "beserkers-greaves",
+      "stage": "Main",
+      "sortOrder": 3,
+      "reason": "Crucial attack speed"
+    },
+    {
+      "buildId": "BUILD016",
+      "itemId": "phantom-dancer",
+      "stage": "Main",
+      "sortOrder": 4,
+      "reason": "Attack speed and kiting power"
+    },
+    {
+      "buildId": "BUILD016",
+      "itemId": "infinity-edge",
+      "stage": "Situational",
+      "sortOrder": 5,
+      "reason": "Major critical strike damage increase"
+    },
+    {
+      "buildId": "BUILD016",
+      "itemId": "lord-dominiks-regards",
+      "stage": "Situational",
+      "sortOrder": 6,
+      "reason": "Helps against tanks"
+    },
+    {
+      "buildId": "BUILD016",
+      "itemId": "guardian-angel",
+      "stage": "Situational",
+      "sortOrder": 7,
+      "reason": "Survival in late game"
+    },
+    {
+      "buildId": "BUILD016",
+      "itemId": "bloodthirster",
+      "stage": "Situational",
+      "sortOrder": 8,
+      "reason": "Extra sustain"
+    },
+    {
+      "buildId": "BUILD017",
+      "itemId": "dorans-blade",
+      "stage": "Starting",
+      "sortOrder": 1,
+      "reason": "Early health and damage"
+    },
+    {
+      "buildId": "BUILD017",
+      "itemId": "youmuus-ghostblade",
+      "stage": "Main",
+      "sortOrder": 2,
+      "reason": "Strong mobility and lethality"
+    },
+    {
+      "buildId": "BUILD017",
+      "itemId": "beserkers-greaves",
+      "stage": "Main",
+      "sortOrder": 3,
+      "reason": "Crucial attack speed"
+    },
+    {
+      "buildId": "BUILD017",
+      "itemId": "the-collector",
+      "stage": "Main",
+      "sortOrder": 4,
+      "reason": "Finishing power and snowball potential"
+    },
+    {
+      "buildId": "BUILD017",
+      "itemId": "seryldas-grudge",
+      "stage": "Situational",
+      "sortOrder": 5,
+      "reason": "Armor penetration and slowing effects"
+    },
+    {
+      "buildId": "BUILD017",
+      "itemId": "infinity-edge",
+      "stage": "Situational",
+      "sortOrder": 6,
+      "reason": "Strong damage boost when crit items are built"
+    },
+    {
+      "buildId": "BUILD017",
+      "itemId": "bloodthirster",
+      "stage": "Situational",
+      "sortOrder": 7,
+      "reason": "Extra sustain"
+    },
+    {
+      "buildId": "BUILD017",
+      "itemId": "guardian-angel",
+      "stage": "Situational",
+      "sortOrder": 8,
+      "reason": "Survival in late game"
+    },
+    {
+      "buildId": "BUILD018",
+      "itemId": "dorans-blade",
+      "stage": "Starting",
+      "sortOrder": 1,
+      "reason": "Early health and damage"
+    },
+    {
+      "buildId": "BUILD018",
+      "itemId": "infinity-edge",
+      "stage": "Main",
+      "sortOrder": 2,
+      "reason": "Huge critical strike damage increase"
+    },
+    {
+      "buildId": "BUILD018",
+      "itemId": "beserkers-greaves",
+      "stage": "Main",
+      "sortOrder": 3,
+      "reason": "Crucial attack speed"
+    },
+    {
+      "buildId": "BUILD018",
+      "itemId": "rapid-firecannon",
+      "stage": "Main",
+      "sortOrder": 4,
+      "reason": "Extends Caitlyn's already long range"
+    },
+    {
+      "buildId": "BUILD018",
+      "itemId": "lord-dominiks-regards",
+      "stage": "Situational",
+      "sortOrder": 5,
+      "reason": "Helps against tanks"
+    },
+    {
+      "buildId": "BUILD018",
+      "itemId": "yun-tal-wildarrows",
+      "stage": "Situational",
+      "sortOrder": 6,
+      "reason": "Strong critical strike synergy"
+    },
+    {
+      "buildId": "BUILD018",
+      "itemId": "bloodthirster",
+      "stage": "Situational",
+      "sortOrder": 7,
+      "reason": "Lifesteal and survivability"
+    },
+    {
+      "buildId": "BUILD018",
+      "itemId": "guardian-angel",
+      "stage": "Situational",
+      "sortOrder": 8,
+      "reason": "Protection in late-game fights"
     }
   ],
   "runes": [
