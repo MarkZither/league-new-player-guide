@@ -1,39 +1,6 @@
 {
   "champions": [
     {
-      "championId": "",
-      "name": "",
-      "title": "test title",
-      "difficulty": null,
-      "description": null,
-      "imageFileName": null,
-      "sourceUrl": null,
-      "researchNotes": "Initial example record; Jan to research and complete factual fields and source.",
-      "lastReviewed": null
-    },
-    {
-      "championId": "",
-      "name": "",
-      "title": null,
-      "difficulty": null,
-      "description": null,
-      "imageFileName": null,
-      "sourceUrl": null,
-      "researchNotes": "Initial example record; Jan to research and complete factual fields and source.",
-      "lastReviewed": null
-    },
-    {
-      "championId": "",
-      "name": "",
-      "title": null,
-      "difficulty": null,
-      "description": null,
-      "imageFileName": null,
-      "sourceUrl": null,
-      "researchNotes": "Initial example record; Jan to research and complete factual fields and source.",
-      "lastReviewed": null
-    },
-    {
       "championId": "soraka",
       "name": "Soraka",
       "title": null,
@@ -247,22 +214,6 @@
     }
   ],
   "recommendations": [
-    {
-      "recommendationId": "",
-      "championId": "",
-      "laneId": "",
-      "beginnerRating": null,
-      "difficulty": null,
-      "playStyle": null,
-      "recommended": "",
-      "why": "",
-      "keystoneRuneId": null,
-      "runeReason": null,
-      "sourceUrl": null,
-      "researchNotes": "Initial example recommendation; Jan should review, research and cite the recommendation.",
-      "reviewedBy": null,
-      "lastReviewed": null
-    },
     {
       "recommendationId": "REC002",
       "championId": "soraka",
@@ -538,15 +489,6 @@
   ],
   "items": [
     {
-      "itemId": "",
-      "name": "",
-      "description": null,
-      "imageFileName": null,
-      "sourceUrl": null,
-      "researchNotes": "Initial filename/ID example; Jan to confirm item facts and source.",
-      "lastReviewed": null
-    },
-    {
       "itemId": "dorans-shield",
       "name": "Doran's Shield",
       "description": "Grants health and health regeneration.Taking damage from enemys restores health over time",
@@ -674,16 +616,6 @@
     }
   ],
   "builds": [
-    {
-      "buildId": "",
-      "recommendationId": "",
-      "name": "",
-      "description": null,
-      "isPrimary": "Yes",
-      "sourceUrl": null,
-      "researchNotes": "Initial structural example only.",
-      "lastReviewed": null
-    },
     {
       "buildId": "BUILD002",
       "recommendationId": "REC006",
