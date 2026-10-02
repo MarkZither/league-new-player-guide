@@ -313,7 +313,7 @@
     {
       "recommendationId": "REC008",
       "championId": "warwick",
-      "laneId": "Jungle",
+      "laneId": "JUNGLE",
       "beginnerRating": 5,
       "difficulty": "Easy",
       "playStyle": "Fighter",
@@ -329,7 +329,7 @@
     {
       "recommendationId": "REC009",
       "championId": "amumu",
-      "laneId": "Jungle",
+      "laneId": "JUNGLE",
       "beginnerRating": 5,
       "difficulty": "Easy",
       "playStyle": "Tank",
@@ -345,7 +345,7 @@
     {
       "recommendationId": "REC010",
       "championId": "master-yi",
-      "laneId": "Jungle",
+      "laneId": "JUNGLE",
       "beginnerRating": 4,
       "difficulty": "Easy-Medium",
       "playStyle": "Fighter",
