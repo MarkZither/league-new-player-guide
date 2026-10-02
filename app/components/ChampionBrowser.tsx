@@ -95,10 +95,10 @@ function ChampionCard({
                 {recommendation.lane.displayName}
               </span>
             </p>
-            <p className="max-w-[16rem] text-xs text-zinc-500">{recommendation.why}</p>
+            <p className="max-w-[16rem] text-xs text-[#F0E6D2]">{recommendation.why}</p>
           </div>
         )}
-        <span className="mt-1 text-xs font-medium text-[#785A28]">
+        <span className="mt-1 text-sm font-semibold text-[#C89B3C]">
           View item builds
         </span>
       </button>
@@ -251,7 +251,27 @@ function ChampionDialog({
                     </summary>
                     <div className="flex flex-col gap-3 border-t border-[#1E2328] p-3 text-sm">
                       {recommendation.why && (
-                        <p className="text-zinc-400">{recommendation.why}</p>
+                        <p className="text-[#F0E6D2]">{recommendation.why}</p>
+                      )}
+                      {recommendation.keystoneRune && (
+                        <section className="border-l-2 border-[#C89B3C] pl-3">
+                          <p className="text-xs font-semibold uppercase tracking-wide text-[#C89B3C]">
+                            Keystone rune
+                          </p>
+                          <p className="mt-1 font-medium text-[#F0E6D2]">
+                            {recommendation.keystoneRune.name} · {recommendation.keystoneRune.path}
+                          </p>
+                          {recommendation.keystoneRune.description && (
+                            <p className="mt-1 text-zinc-400">
+                              {recommendation.keystoneRune.description}
+                            </p>
+                          )}
+                          {recommendation.runeReason && (
+                            <p className="mt-1 text-zinc-300">
+                              {recommendation.runeReason}
+                            </p>
+                          )}
+                        </section>
                       )}
                       {recommendation.recommended === "Yes" && (
                         <div>

@@ -14,6 +14,9 @@ export default function Home() {
         <h1 className="text-4xl font-bold tracking-tight text-[#F0E6D2] sm:text-5xl">
           New Player Guide
         </h1>
+        <p className="text-sm font-medium uppercase tracking-[0.2em] text-[#C89B3C]">
+          made by Jan Luca and Mark
+        </p>
         <p className="max-w-xl text-base leading-7 text-zinc-400">
           New to League of Legends? Start here. Browse beginner-friendly
           champions, see which lane suits them, and learn why they&apos;re a
