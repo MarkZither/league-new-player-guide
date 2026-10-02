@@ -28,6 +28,8 @@ export interface Recommendation {
   playStyle: string | null;
   recommended: "Yes" | "No";
   why: string;
+  keystoneRuneId: string | null;
+  runeReason: string | null;
 }
 
 export interface Item {
@@ -55,6 +57,14 @@ export interface BuildItem {
   reason: string | null;
 }
 
+export interface Rune {
+  runeId: string;
+  name: string;
+  path: string;
+  description: string | null;
+  sortOrder: number;
+}
+
 interface LeagueData {
   champions: Champion[];
   lanes: Lane[];
@@ -62,6 +72,7 @@ interface LeagueData {
   items: Item[];
   builds: Build[];
   buildItems: BuildItem[];
+  runes: Rune[];
 }
 
 const data = rawData as LeagueData;
@@ -79,6 +90,7 @@ export interface BuildDetail extends Build {
 /** A recommendation paired with its lane and any recommended item builds. */
 export interface RecommendationDetail extends Recommendation {
   lane: Lane;
+  keystoneRune: Rune | null;
   builds: BuildDetail[];
 }
 
@@ -108,6 +120,7 @@ export function getChampionSummaries(): ChampionSummary[] {
     data.lanes.map((lane) => [lane.laneId.toUpperCase(), lane])
   );
   const itemsById = new Map(data.items.map((item) => [item.itemId, item]));
+  const runesById = new Map(data.runes.map((rune) => [rune.runeId, rune]));
 
   function getBuildsFor(recommendationId: string): BuildDetail[] {
     return data.builds
@@ -141,6 +154,9 @@ export function getChampionSummaries(): ChampionSummary[] {
         return {
           ...recommendation,
           lane,
+          keystoneRune: recommendation.keystoneRuneId
+            ? runesById.get(recommendation.keystoneRuneId) ?? null
+            : null,
           builds: getBuildsFor(recommendation.recommendationId),
         };
       })
